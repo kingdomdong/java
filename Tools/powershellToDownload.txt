@@ -1,0 +1,5 @@
+Step 1
+	> $client = new-object System.Net.WebClient
+Step 2
+	> $client.DownloadFile('des_http_path.subfix', 'save_path.subfix')
+	e.g. > ￥client.DownloadFile('https://storage.googleapis.com/google-code-archive-downloads/v2/vode.google.com/eclipse-fullscreen/eclipse-fullscreen_1.0.7.zip', 'D:\full-screen.zip')
