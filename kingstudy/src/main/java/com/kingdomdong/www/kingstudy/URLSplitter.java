@@ -20,6 +20,8 @@ public class URLSplitter {
                     System.out.println("The host is null.");
                 }
                 
+                System.out.println("The authority is " + url.getAuthority());
+                System.out.println("The userInfo is " + url.getUserInfo());
                 System.out.println("The port is " + url.getPort());
                 System.out.println("The path is " + url.getPath());
                 System.out.println("The ref is " + url.getRef());
