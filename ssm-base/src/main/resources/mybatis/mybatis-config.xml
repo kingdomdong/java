@@ -2,25 +2,33 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
 
 <configuration>
+
+	<properties resource="jdbc.properties"></properties>
+
 	<typeAliases>
-		<typeAlias alias="role" type="com.king.ssm.chapter3.pojo.Role"/>
+		<!-- <typeAlias alias="role" type="com.king.ssm.chapter3.pojo.Role" /> -->
+			<package name="com.king.ssm.chapter3.pojo"/>
 	</typeAliases>
-	
+
 	<environments default="development">
 		<environment id="development">
 			<transactionManager type="JDBC"></transactionManager>
 			<dataSource type="POOLED">
-				<property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-				<property name="url" value="jdbc:mysql://localhost:3306/ssm?useUnicode=true&amp;characterEncoding=utf-8&amp;serverTimezone=GMT"/>
-				<property name="username" value="root"/>
-				<property name="password" value="123456"/>
+				<property name="driver" value="${database.driver}"/>
+				<property name="url" value="${database.url}" />
+				<property name="username" value="${database.username}" />
+				<property name="password" value="${database.password}" />
+				<!-- <property name="driver" value="com.mysql.cj.jdbc.Driver" />
+					<property name="url" value="jdbc:mysql://localhost:3306/ssm?useUnicode=true&amp;characterEncoding=utf-8&amp;serverTimezone=GMT"/>
+					<property name="username" value="root" />
+					<property name="password" value="123456" /> -->
 			</dataSource>
 		</environment>
 	</environments>
-	
+
 	<mappers>
-		<mapper resource="com/king/ssm/mapper/chapter3/RoleMapper.xml"/>
-		<mapper class="com.king.ssm.mapper.chapter3.RoleMapper2"/>
+		<mapper resource="com/king/ssm/mapper/chapter3/RoleMapper.xml" />
+		<mapper class="com.king.ssm.mapper.chapter3.RoleMapper2" />
 	</mappers>
-	
+
 </configuration>

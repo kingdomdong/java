@@ -2,6 +2,7 @@ package com.king.ssm.chapter3.utils;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Properties;
 
 import org.apache.ibatis.datasource.pooled.PooledDataSource;
 import org.apache.ibatis.io.Resources;
@@ -25,11 +26,24 @@ public class SqlSessionFactoryUtils {
 	};
 
 	public static SqlSessionFactory genFactoryByXML() {
+		
 		synchronized (LOCK_CLASS) {
 			if (sqlSessionFactory == null) {
-				String resource = "mybatis-config.xml";
-				try (InputStream inputStream = Resources.getResourceAsStream(resource);) {
-					sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+				try (InputStream in = Resources.getResourceAsStream("jdbc.properties");) {
+					// CONFIG PROPERTIES
+					Properties properties = new Properties();
+					properties.load(in);
+					String username = properties.getProperty("database.username");
+					String password = properties.getProperty("database.password");
+					// decode username & password
+					properties.put("database.username", CodeUtils.decode(username));
+					properties.put("database.password", CodeUtils.decode(password));
+					
+					// CONFIG MYBATIS CONFIGURATION
+					String resource = "mybatis-config.xml";
+					InputStream inputStream = Resources.getResourceAsStream(resource);
+					
+					sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream, properties);
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
@@ -47,10 +61,10 @@ public class SqlSessionFactoryUtils {
 				TransactionFactory transactionFactory = new JdbcTransactionFactory();
 				// dataSource config
 				PooledDataSource dataSource = new PooledDataSource();
-				dataSource.setDriver("com.mysql.jdbc.Driver");
+				dataSource.setDriver("com.mysql.cj.jdbc.Driver");
 				dataSource.setUsername("root");
 				dataSource.setPassword("123456");
-				dataSource.setUrl("jdbc:mysql://localhost:3306/ssm");
+				dataSource.setUrl("jdbc:mysql://localhost:3306/ssm?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT");
 				dataSource.setDefaultAutoCommit(false);
 				Environment environment = new Environment("develop", transactionFactory, dataSource);
 				// create Configuration

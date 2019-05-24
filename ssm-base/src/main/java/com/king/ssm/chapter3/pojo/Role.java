@@ -6,7 +6,7 @@ public class Role {
 
 	private String roleName;
 
-	private String noteString;
+	private String note;
 
 	public Long getId() {
 		return id;
@@ -24,12 +24,12 @@ public class Role {
 		this.roleName = roleName;
 	}
 
-	public String getNoteString() {
-		return noteString;
+	public String getNote() {
+		return note;
 	}
 
-	public void setNoteString(String noteString) {
-		this.noteString = noteString;
+	public void setNote(String note) {
+		this.note = note;
 	}
 
 }
