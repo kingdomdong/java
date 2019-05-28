@@ -13,8 +13,8 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.ibatis.transaction.TransactionFactory;
 import org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory;
 
-import com.king.ssm.chapter3.pojo.Role;
 import com.king.ssm.mapper.chapter3.RoleMapper;
+import com.king.ssm.pojo.Role;
 
 public class SqlSessionFactoryUtils {
 

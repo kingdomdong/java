@@ -3,31 +3,44 @@
 
 <configuration>
 
-	<properties resource="jdbc.properties"></properties>
+	<!-- <properties resource="jdbc.properties"></properties> -->
 
 	<typeAliases>
-		<!-- <typeAlias alias="role" type="com.king.ssm.chapter3.pojo.Role" /> -->
-			<package name="com.king.ssm.chapter3.pojo"/>
+		<typeAlias alias="role" type="com.king.ssm.pojo.Role" />
+		<package name="com.king.ssm.pojo" />
 	</typeAliases>
 
+	<typeHandlers>
+		<!-- way 1 -->
+		<typeHandler
+			handler="com.king.ssm.chapter4.typehandler.MyTypeHandler"
+			jdbcType="VARCHAR" javaType="string" />
+		<!-- way 2 + MyTypeHandler annotations of @jdbcType & @javaType -->
+		<package name="com.king.ssm.chapter4.typehandler"/>
+	</typeHandlers>
+	
 	<environments default="development">
 		<environment id="development">
 			<transactionManager type="JDBC"></transactionManager>
 			<dataSource type="POOLED">
-				<property name="driver" value="${database.driver}"/>
+				<property name="driver" value="${database.driver}" />
 				<property name="url" value="${database.url}" />
 				<property name="username" value="${database.username}" />
 				<property name="password" value="${database.password}" />
-				<!-- <property name="driver" value="com.mysql.cj.jdbc.Driver" />
-					<property name="url" value="jdbc:mysql://localhost:3306/ssm?useUnicode=true&amp;characterEncoding=utf-8&amp;serverTimezone=GMT"/>
-					<property name="username" value="root" />
-					<property name="password" value="123456" /> -->
+				<!-- <property name="driver" value="com.mysql.cj.jdbc.Driver" /> <property 
+					name="url" value="jdbc:mysql://localhost:3306/ssm?useUnicode=true&amp;characterEncoding=utf-8&amp;serverTimezone=GMT"/> 
+					<property name="username" value="root" /> <property name="password" value="123456" 
+					/> -->
 			</dataSource>
 		</environment>
 	</environments>
 
 	<mappers>
+	<!-- way 1 _ relates to class RoleMapper by RoleMapper.xml -->
 		<mapper resource="com/king/ssm/mapper/chapter3/RoleMapper.xml" />
+		<mapper resource="com/king/ssm/mapper/chapter4/UserMapper.xml"/>
+
+	<!-- way 2 _ relates to class RoleMapper directly -->
 		<mapper class="com.king.ssm.mapper.chapter3.RoleMapper2" />
 	</mappers>
 

@@ -3,21 +3,33 @@
 
 <mapper namespace="com.king.ssm.mapper.chapter3.RoleMapper">
 
+	<resultMap type="role" id="roleMap">
+		<result property="id" column="id" />
+		<!-- way 1 -->
+		<result property="roleName" column="role_name"
+			jdbcType="VARCHAR" javaType="string" />
+		<!-- way 2 -->
+		<result property="note" column="note"
+			typeHandler="com.king.ssm.chapter4.typehandler.MyTypeHandler" />
+	</resultMap>
+
 	<insert id="insertRole" parameterType="role">
 		INSERT INTO t_role
 		(role_name, note)
 		VALUES
 		(#{roleName}, #{note})
 	</insert>
-	
+
 	<delete id="deleteRole" parameterType="long">
 		DELETE FROM t_role
-		WHERE id = #{id}
+		WHERE id
+		= #{id}
 	</delete>
-	
+
 	<update id="updateRole" parameterType="role">
 		UPDATE t_role
-		SET role_name = #{roleName}, note = #{note}
+		SET role_name
+		= #{roleName}, note = #{note}
 		WHERE id = #{id}
 	</update>
 
@@ -27,11 +39,23 @@
 		FROM t_role
 		WHERE id = #{id}
 	</select>
-	
+
 	<select id="findRoles" parameterType="string" resultType="role">
-		SELECT id, role_name as roleName, note
+		SELECT
+		id, role_name as roleName, note
 		FROM t_role
-		WHERE role_name LIKE CONCAT('%', #{roleName}, '%')
+		WHERE role_name LIKE
+		CONCAT('%', #{roleName}, '%')
 	</select>
-	
+
+	<select id="findRoles2" parameterType="string"
+		resultMap="roleMap">
+		SELECT id, role_name, note
+		FROM t_role
+		WHERE
+		note like
+		CONCAT('%', #{note,
+		typeHandler=com.king.ssm.chapter4.typehandler.MyTypeHandler}, '%')
+	</select>
+
 </mapper>

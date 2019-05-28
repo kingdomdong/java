@@ -2,7 +2,7 @@ package com.king.ssm.mapper.chapter3;
 
 import org.apache.ibatis.annotations.Select;
 
-import com.king.ssm.chapter3.pojo.Role;
+import com.king.ssm.pojo.Role;
 
 public interface RoleMapper2 {
 	

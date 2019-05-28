@@ -1,4 +1,4 @@
-package com.king.ssm.chapter3.pojo;
+package com.king.ssm.pojo;
 
 public class Role {
 

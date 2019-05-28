@@ -1,4 +1,4 @@
-package com.king.ssm.chapter3.main;
+package com.king.ssm.main;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.apache.ibatis.session.SqlSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.king.ssm.chapter3.pojo.Role;
 import com.king.ssm.chapter3.utils.SqlSessionFactoryUtils;
 import com.king.ssm.mapper.chapter3.RoleMapper;
+import com.king.ssm.pojo.Role;
 
 public class Chapter3Main {
 
@@ -21,9 +21,9 @@ public class Chapter3Main {
 			session = SqlSessionFactoryUtils.genFactoryByXML().openSession();
 			logger.info("sqlSession open()");
 			RoleMapper roleMapper = session.getMapper(RoleMapper.class);
-			List<Role> role = roleMapper.findRoles("M");
+			List<Role> role = roleMapper.findRoles2("R");
 			if (role != null) {
-				for (Role elem : role) {					
+				for (Role elem : role) {
 					logger.info(elem.getNote());
 				}
 			}
