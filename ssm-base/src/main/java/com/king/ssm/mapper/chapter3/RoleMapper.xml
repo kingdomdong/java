@@ -5,9 +5,11 @@
 
 	<resultMap type="role" id="roleMap">
 		<result property="id" column="id" />
+		
 		<!-- way 1 -->
 		<result property="roleName" column="role_name"
 			jdbcType="VARCHAR" javaType="string" />
+			
 		<!-- way 2 -->
 		<result property="note" column="note"
 			typeHandler="com.king.ssm.chapter4.typehandler.MyTypeHandler" />

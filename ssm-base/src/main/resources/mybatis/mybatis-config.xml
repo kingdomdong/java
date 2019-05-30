@@ -8,6 +8,7 @@
 	<typeAliases>
 		<typeAlias alias="role" type="com.king.ssm.pojo.Role" />
 		<package name="com.king.ssm.pojo" />
+		<package name="com.king.ssm.enumeration" />
 	</typeAliases>
 
 	<typeHandlers>
@@ -15,6 +16,10 @@
 		<typeHandler
 			handler="com.king.ssm.chapter4.typehandler.MyTypeHandler"
 			jdbcType="VARCHAR" javaType="string" />
+		<!-- <typeHandler
+			handler="com.king.ssm.chapter4.typehandler.SexEnumTypeHandler"
+			jdbcType="INTEGER" javaType="sexEnum" /> -->
+			
 		<!-- way 2 + MyTypeHandler annotations of @jdbcType & @javaType -->
 		<package name="com.king.ssm.chapter4.typehandler"/>
 	</typeHandlers>

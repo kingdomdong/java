@@ -6,8 +6,23 @@
 		<result property="id" column="id" />
 		<result property="userName" column="user_name" />
 		<result property="password" column="password" />
+		
+		<!-- set sex = 1, use Enum.ordinal() -->
+		<!-- <result property="sex" column="sex"
+			typeHandler="org.apache.ibatis.type.EnumOrdinalTypeHandler" /> -->
+		
+		<!-- set sex = 'FEMALE', use Enum.valueOf(SexEnum.class, "FEMALE")-->
+		<!-- <result property="sex" column="sex"
+			typeHandler="org.apache.ibatis.type.EnumTypeHandler" /> -->
+		
+		<!-- sex is INT(10) in DB, SexEnumTypeHandler can be configured in mybatis-config.xml -->
+		<!-- <result property="sex" column="sex"
+			typeHandler="com.king.ssm.chapter4.typehandler.SexEnumTypeHandler"/>	 -->
+		
+		<!-- sex is INT(10) in DB, must be match @MappedTypes & @MappedJdbcTypes in SexEnumTypeHandler -->		
 		<result property="sex" column="sex"
-			typeHandler="org.apache.ibatis.type.EnumOrdinalTypeHandler" />
+			javaType="sexEnum" jdbcType="INTEGER"/>
+					
 		<result property="mobile" column="mobile" />
 		<result property="tel" column="tel" />
 		<result property="email" column="email" />

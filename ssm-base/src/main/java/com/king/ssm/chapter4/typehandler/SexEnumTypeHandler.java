@@ -6,34 +6,40 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.apache.ibatis.type.JdbcType;
+import org.apache.ibatis.type.MappedJdbcTypes;
+import org.apache.ibatis.type.MappedTypes;
 import org.apache.ibatis.type.TypeHandler;
 
 import com.king.ssm.enumeration.SexEnum;
 
+@MappedTypes(SexEnum.class)
+@MappedJdbcTypes(JdbcType.INTEGER)
 public class SexEnumTypeHandler implements TypeHandler<SexEnum>{
 
 	@Override
 	public void setParameter(PreparedStatement ps, int i, SexEnum parameter, JdbcType jdbcType) throws SQLException {
-		// TODO Auto-generated method stub
-		
+		ps.setInt(i, parameter.getId());
 	}
 
 	@Override
 	public SexEnum getResult(ResultSet rs, String columnName) throws SQLException {
-		// TODO Auto-generated method stub
-		return null;
+		Integer id = rs.getInt(columnName);
+		
+		return SexEnum.getSexById(id);
 	}
 
 	@Override
 	public SexEnum getResult(ResultSet rs, int columnIndex) throws SQLException {
-		// TODO Auto-generated method stub
-		return null;
+		Integer id = rs.getInt(columnIndex);
+		
+		return SexEnum.getSexById(id);
 	}
 
 	@Override
 	public SexEnum getResult(CallableStatement cs, int columnIndex) throws SQLException {
-		// TODO Auto-generated method stub
-		return null;
+		Integer id = cs.getInt(columnIndex);
+		
+		return SexEnum.getSexById(id);
 	}
 
 }

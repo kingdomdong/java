@@ -12,7 +12,7 @@ public enum SexEnum {
 		this.name = name;
 	}
 	
-	public SexEnum getSexById(Integer id) {
+	public static SexEnum getSexById(Integer id) {
 		for (SexEnum elem : SexEnum.values()) {
 			if (elem.getId() == id) {
 				return elem;
