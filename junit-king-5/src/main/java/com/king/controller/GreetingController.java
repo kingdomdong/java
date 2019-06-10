@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.king.base.Greeting;
-import com.king.entity.User;
+import com.king.pojo.User;
 import com.king.service.PropertyService;
 
 @RestController

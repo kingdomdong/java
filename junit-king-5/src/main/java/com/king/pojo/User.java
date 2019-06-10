@@ -1,4 +1,4 @@
-package com.king.entity;
+package com.king.pojo;
 
 public class User {
 

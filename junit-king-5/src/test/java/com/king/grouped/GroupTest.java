@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import com.king.entity.Address;
+import com.king.pojo.Address;
 
 public class GroupTest {
 

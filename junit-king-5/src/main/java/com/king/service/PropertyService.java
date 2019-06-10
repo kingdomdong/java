@@ -5,7 +5,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import com.king.entity.User;
+import com.king.pojo.User;
 import com.king.utils.ObjectUtils;
 
 @Service

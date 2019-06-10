@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.king.base.Response;
+import com.king.enumeration.SexEnum;
+import com.king.pojo.Role;
 import com.king.remote.WgsFeignService;
 import com.king.req.WOListReqDto;
 import com.king.utils.ObjectUtils;
@@ -21,6 +23,14 @@ public class RemoteController {
 	public Response queryWOList(WOListReqDto reqDto) {
 		return wgsFeignService.queryWOList(ObjectUtils.toParamMap(reqDto));
 //		return wgsFeignService.queryWOList(reqDto);
+	}
+	
+	@GetMapping(value = "/")
+	public Response testEnum() {
+		Role role = new Role();
+		role.setId(1);
+		role.setSex(SexEnum.FEMALE);
+		return new Response(role);
 	}
 
 }
