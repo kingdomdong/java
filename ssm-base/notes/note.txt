@@ -7,5 +7,5 @@ mybatis-config.xml
 
 
 feign @GetMappint with body:
-	
+	@RequestParam
 

@@ -1,4 +1,4 @@
-package com.king.ssm.chapter3.utils;
+package com.king.ssm.utils;
 
 import java.io.IOException;
 import java.io.InputStream;

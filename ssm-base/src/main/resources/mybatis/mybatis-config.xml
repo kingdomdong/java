@@ -21,7 +21,7 @@
 			jdbcType="INTEGER" javaType="sexEnum" /> -->
 			
 		<!-- way 2 + MyTypeHandler annotations of @jdbcType & @javaType -->
-		<package name="com.king.ssm.chapter4.typehandler"/>
+		<package name="com.king.ssm.chapter4.typehandler" />
 	</typeHandlers>
 	
 	<environments default="development">

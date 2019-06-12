@@ -1,6 +1,10 @@
-package com.king.ssm.chapter2.jdk.proxy;
+package com.king.ssm.main;
 
-public class LaunchProxy {
+import com.king.ssm.chapter2.jdk.proxy.HelloWorld;
+import com.king.ssm.chapter2.jdk.proxy.HelloWorldImpl;
+import com.king.ssm.chapter2.jdk.proxy.JdkProxy;
+
+public class Cha2ProxyLaunch {
 	
 	public static void testJdkProxy() {
 		JdkProxy jdkProxy = new JdkProxy();

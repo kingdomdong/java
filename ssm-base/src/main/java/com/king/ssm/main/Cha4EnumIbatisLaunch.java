@@ -6,13 +6,13 @@ import org.apache.ibatis.session.SqlSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.king.ssm.chapter3.utils.SqlSessionFactoryUtils;
 import com.king.ssm.mapper.chapter4.UserMapper;
 import com.king.ssm.pojo.User;
+import com.king.ssm.utils.SqlSessionFactoryUtils;
 
-public class Chapter4Main {
+public class Cha4EnumIbatisLaunch {
 
-	private static final Logger log = LoggerFactory.getLogger(Chapter4Main.class);
+	private static final Logger log = LoggerFactory.getLogger(Cha4EnumIbatisLaunch.class);
 
 	public static void main(String[] args) {
 		SqlSession sqlSession = SqlSessionFactoryUtils.genFactoryByXML().openSession();

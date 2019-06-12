@@ -1,9 +1,12 @@
-package com.king.ssm.chapter2.reflect;
+package com.king.ssm.main;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class Launcher {
+import com.king.ssm.chapter2.reflect.ReflectServiceImpl;
+import com.king.ssm.chapter2.reflect.ReflectServiceImpl2;
+
+public class Cha2ReflectLauncher {
 
 	// reflect Class without parameter constructor
 	public static ReflectServiceImpl getInstance() {
