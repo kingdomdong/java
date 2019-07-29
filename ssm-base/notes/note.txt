@@ -9,3 +9,52 @@ mybatis-config.xml
 feign @GetMappint with body:
 	@RequestParam
 
+
+580000
+
+{"assignStaffId":"","assignStaffName":"","detailObject":{"address":"这里是详细地址","endTime":"","faultType":"001","itemName":"测试梯外屏-不要删","propertyName":"HB","question":"剪线设备端、其他、玻璃或屏幕损坏、屏幕问题、无机器、电梯临时维护、电梯长期故障、无电故障、安装不牢固、拷贝失败、上刊阻拦","startTime":"","taskId":null},"deviceId":"cd-test-01Atest-1004","legal":true,"level":3,"noticeUrlProcess":"http://ht.zuul.xinchao.mobi/service","sign":"31c4c47d8861271286cb0bdcafebd501","sourceId":"3001","staffId":"","staffName":"","woType":15}
+
+{
+	"sourceId": "3001",
+	"sign": "838d630d9896db6c7dfddbba4ddde096",
+	"woType":15,
+	"deviceId": "CD-B08-980-1",
+	"level": 2,
+	"noticeUrlProcess":"http://xc.notice.url.com",
+	"staffId": "10000",
+	"staffName": "yyt",
+	"assignStaffId":"50000",
+	"assignStaffName":"king",
+	"detailObject" : {
+		"faultType": "2005",
+		"address": "江苏省南京市江宁区正方中路",
+		"question" : "设备故障",
+		"itemName": "万达国美大厦",
+		"propertyName": "CB"
+	}
+}
+
+{
+    "assignStaffId": "",
+    "assignStaffName": "",
+    "detailObject": {
+        "address": "这里是详细地址",
+        "endTime": "",
+        "faultType": "001",
+        "itemName": "测试梯外屏-不要删",
+        "propertyName": "HB",
+        "question": "剪线设备端、其他、玻璃或屏幕损坏、屏幕问题、无机器、电梯临时维护、电梯长期故障、无电故障、安装不牢固、拷贝失败、上刊阻拦",
+        "startTime": "",
+        "taskId": null
+    },
+    "deviceId": "cd-test-01Atest-1004",
+    "legal": true,
+    "level": 3,
+    "noticeUrlProcess": "http://ht.zuul.xinchao.mobi/service",
+    "sign": "31c4c47d8861271286cb0bdcafebd501",
+    "sourceId": "3001",
+    "staffId": "",
+    "staffName": "",
+    "woType": 15
+}
+

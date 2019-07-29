@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.znv.cop.ods.controller.xc.XCUnitBuildingDao">
+    
+    <select id="emptyUnitDevices" resultType="string">	    
+		SELECT tw.device_id FROM t_workorder tw
+		JOIN t_workorder_xc_ext te ON tw.id = te.workorder_id AND te.unit IS NULL
+		WHERE CASE
+			WHEN (tw.wo_type = '14' OR tw.wo_type = '15') THEN 1
+			WHEN tw.wo_type = '13' AND tw.create_time &gt; '2019.06.01' THEN 1
+			ELSE 0
+			END
+		GROUP BY tw.device_id
+		LIMIT 600
+    </select>
+    
+    <update id="fillUnit">
+        UPDATE t_workorder_xc_ext te
+		JOIN t_workorder tw ON tw.device_id = #{deviceId} AND te.workorder_id = tw.id AND te.unit != null
+		SET unit = #{unit},
+		building = #{building}
+    </update>
+    
+    <update id="batchFillUnit" parameterType="list">
+		<foreach collection="list" item="elem" separator=";">
+	        UPDATE t_workorder_xc_ext te
+			JOIN t_workorder tw ON
+				tw.device_id = #{elem.deviceId} AND te.workorder_id = tw.id
+			SET unit = #{elem.unit},
+			building = #{elem.building}
+		</foreach>		
+    </update>  
+    
+        
+</mapper>
