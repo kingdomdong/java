@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
 
-public class ProductList extends Observable{
+public class ProductList extends Observable {
 	
 	private List<String> productList = null;
 	
@@ -25,12 +25,12 @@ public class ProductList extends Observable{
 	}
 	
 	public void addProductListObserver(Observer observer) {
-		this.addObserver(observer);
+		this.addObserver(observer); // core method
 	}
 	
 	public void addProduct(String newProduct) {
 		productList.add(newProduct);
-		System.out.println("product list add new item");
+		System.out.println("product list add new item: " + newProduct);
 		this.setChanged();
 		this.notifyObservers(newProduct);
 	}

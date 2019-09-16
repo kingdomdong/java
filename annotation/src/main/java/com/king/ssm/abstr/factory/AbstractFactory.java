@@ -4,7 +4,7 @@ import com.king.ssm.factory.FoodFactory;
 import com.king.ssm.factory.IProduct;
 import com.king.ssm.factory.NoSupportedException;
 
-public abstract class AbstractFactory {
+public abstract class AbstractFactory implements IProductFactory {
 
 	public static String filterProCode(String productNo) {
 		return productNo.split("-")[1];

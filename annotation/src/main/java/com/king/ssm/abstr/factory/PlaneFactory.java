@@ -15,7 +15,7 @@ public class PlaneFactory extends AbstractFactory implements IProductFactory {
 		case "002":
 			return new Boeing();
 		default:
-			throw new NoSupportedException("Not support this Plane type.");
+			throw new NoSupportedException("Not support this Plane type: " + proCode);
 		}
 	}
 

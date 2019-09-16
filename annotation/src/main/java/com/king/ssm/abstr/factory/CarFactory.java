@@ -15,7 +15,7 @@ public class CarFactory implements IProductFactory {
 		case "002":
 			return new Toyota();
 		default:
-			throw new NoSupportedException("Not support this Car type.");
+			throw new NoSupportedException("Not support this Car type: " + proCode);
 		}
 	}
 

@@ -1,0 +1,10 @@
+
+mybatis-config.xml
+
+	mybatis.config-location=classpath:mybatis/mybatis-config.xml
+	mybatis.mapper-locations=classpath:mybatis/mapper/*.xml
+	mybatis.type-aliases-package=com.znv.cop.inf
+
+
+feign @GetMapping with body:
+	@RequestParam

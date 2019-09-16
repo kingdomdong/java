@@ -1,6 +1,10 @@
 package com.king.ssm.factory;
 
 import com.king.ssm.abstr.factory.IProductFactory;
+import com.king.ssm.abstr.factory.product.Beans;
+import com.king.ssm.abstr.factory.product.Cookie;
+import com.king.ssm.abstr.factory.product.Cream;
+import com.king.ssm.abstr.factory.product.Jelly;
 
 public class FoodFactory implements IProductFactory {
 
@@ -16,7 +20,7 @@ public class FoodFactory implements IProductFactory {
 		case "004":
 			return new Cream();
 		default:
-			throw new NoSupportedException("Not support this Food type.");
+			throw new NoSupportedException("Not support this Food type: " + proCode);
 		}
 	}
 

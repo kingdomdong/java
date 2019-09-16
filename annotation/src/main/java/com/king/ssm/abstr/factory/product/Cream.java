@@ -1,4 +1,6 @@
-package com.king.ssm.factory;
+package com.king.ssm.abstr.factory.product;
+
+import com.king.ssm.factory.AbstractProduct;
 
 public class Cream extends AbstractProduct {
 	
