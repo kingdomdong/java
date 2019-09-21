@@ -5,3 +5,5 @@
 */bin/
 */*.class
 ssm-base/*.pdf
+/SpringInAction/.idea
+/SpringInAction/out/
