@@ -7,4 +7,4 @@
 ssm-base/*.pdf
 */.idea/
 */out/
-.iml
+*/**/*.iml
