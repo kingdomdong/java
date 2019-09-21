@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-<bean id="inventoryService"
-      class="com.example.InventoryService"/>
-
-<bean id="productService"
-      class="com.example.InventoryService"/>
-<constructor-arg ref="inventoryService"/>
-        </bean>
