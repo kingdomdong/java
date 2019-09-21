@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.king.ssm.mapper.chapter4.UserMapper">
+	<resultMap type="user" id="userMap">
+		<result property="id" column="id" />
+		<result property="userName" column="user_name" />
+		<result property="password" column="password" />
+		
+		<!-- set sex = 1, use Enum.ordinal() -->
+		<!-- <result property="sex" column="sex"
+			typeHandler="org.apache.ibatis.type.EnumOrdinalTypeHandler" /> -->
+		
+		<!-- set sex = 'FEMALE', use Enum.valueOf(SexEnum.class, "FEMALE")-->
+		<!-- <result property="sex" column="sex"
+			typeHandler="org.apache.ibatis.type.EnumTypeHandler" /> -->
+		
+		<!-- sex is INT(10) in DB, SexEnumTypeHandler can be configured in mybatis-config.xml -->
+		<!-- <result property="sex" column="sex"
+			typeHandler="com.king.ssm.chapter4.typehandler.SexEnumTypeHandler"/>	 -->
+		
+		<!-- sex is INT(10) in DB, must be match @MappedTypes & @MappedJdbcTypes in SexEnumTypeHandler -->		
+		<result property="sex" column="sex"
+			javaType="sexEnum" jdbcType="INTEGER"/>
+					
+		<result property="mobile" column="mobile" />
+		<result property="tel" column="tel" />
+		<result property="email" column="email" />
+		<result property="note" column="note" />
+	</resultMap>
+	
+	<select id="getUser" parameterType="long" resultMap="userMap">
+		SELECT *
+		FROM t_user
+		<where>
+			id = #{id}
+		</where>
+	</select>
+	
+</mapper>

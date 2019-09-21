@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.king.ssm.mapper.chapter5.FemaleHealthFormMapper">
+
+	<select id="getFemaleHealthForm" parameterType="long" resultType="femaleHealthForm">
+		SELECT *
+		FROM t_female_health_form
+		<where>
+			<if test="empId != null">
+				emp_id = #{empId}
+			</if>		
+		</where>
+	</select>
+
+</mapper>
