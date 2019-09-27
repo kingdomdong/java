@@ -1,7 +1,8 @@
 Chapter 1
-    - outline
-    * AND > Definition
-    # collection AND list
+    Notes:
+        - outline
+        * AND > Definition
+        # collection AND list
 
     Chapter 1
         -   Explicit Configuration
@@ -80,6 +81,7 @@ Chapter 1
                 *   Built in H2 Console
                     >   use http://localhost:8080/h2-console to gain insight into the data your application is working with
 
+        -
 
 
         Knowledge
@@ -126,6 +128,12 @@ Chapter 1
                         *   arranges test in the context of a Spring MVC
                         *   arranges Controllers to be registered in Spring MVC
 
+            -   Spring landscape
+                *   the core spring framework
+                *
+
+
+
         English
 
             Words
@@ -161,7 +169,7 @@ Chapter 1
                                 E.g. The joke didn't go down very well.
                         #   to lose or be defeated
                                 E.g. England's unbeaten run of ten games ended last night when they went down 4-2 to France.
-                                     Dictators rarely go down without fight.                                    
+                                     Dictators rarely go down without fight.
                         #   (UK football) if a football team goes down, it drops to a lower division(= group of teams who play each other)
                         #   (UK slang) to be put in prison
                         #   if a computer goes down, it stops working
@@ -173,14 +181,12 @@ Chapter 1
                         gloss over - to treat sth. in a way that fails to recognize the importance or its' faults
 
 
-
         Question
 
             *   <dependency>
                 selenium in pom.xml
 
             *   mocking in JUnit test
-
 
 
     在程序届，小白程序员一言不合，我忍着。中级程序员一言不合，我跟你吵。在我这里，一言不合我跟你扒源码，举栗子。
