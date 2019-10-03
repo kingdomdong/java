@@ -1,8 +1,10 @@
 package tacos;
 
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 @Data
+@RequiredArgsConstructor
 public class Ingredient {
 
     private final String id;
@@ -10,7 +12,7 @@ public class Ingredient {
     private final Type type;
 
     public enum Type {
-        WRAP, PROTEIN, VEGGEIES, CHEESE, SAUSE
+        WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
     }
 
 }

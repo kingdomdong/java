@@ -3,11 +3,16 @@ package tacos.web;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import tacos.Ingredient;
 import tacos.Ingredient.Type;
+import tacos.Taco;
 
+import javax.validation.Valid;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -24,12 +29,12 @@ public class DesignTacoController {
                 new Ingredient("COTO", "Corn Tortilla", Type.WRAP),
                 new Ingredient("GRBF", "Ground Beef", Type.WRAP),
                 new Ingredient("CARN", "Carnitas", Type.PROTEIN),
-                new Ingredient("TMTO", "Diced Tomatoes", Type.VEGGEIES),
-                new Ingredient("LETC", "Lettuce", Type.VEGGEIES),
+                new Ingredient("TMTO", "Diced Tomatoes", Type.VEGGIES),
+                new Ingredient("LETC", "Lettuce", Type.VEGGIES),
                 new Ingredient("CHED", "Cheddar", Type.CHEESE),
                 new Ingredient("JACK", "Monterrey Jack", Type.CHEESE),
-                new Ingredient("SLSA", "Salas", Type.SAUSE),
-                new Ingredient("SRCR", "Sour Cream", Type.SAUSE)
+                new Ingredient("SLSA", "Salas", Type.SAUCE),
+                new Ingredient("SRCR", "Sour Cream", Type.SAUCE)
         );
 
         Type[] types = Type.values();
@@ -47,6 +52,24 @@ public class DesignTacoController {
         return ingredients.stream().filter(x -> x.getType().equals(type)).collect(Collectors.toList());
     }
 
-    ;
+    /**
+     * @ModelAttribute - ?
+     * @param design
+     * @param errors
+     * @param model
+     * @return
+     */
+    @PostMapping
+    public String processingDesign(@Valid @ModelAttribute("design") Taco design, Errors errors, Model model) {
+        if (errors.hasErrors()) {
+            return "design";
+        }
+
+        // save the Taco design
+        // we'll do this in Chapter3
+        log.info("Processing design: " + design);
+
+        return "redirect:/orders/current";
+    }
 
 }
