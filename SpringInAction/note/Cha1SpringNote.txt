@@ -37,11 +37,9 @@ Chapter 1
                 >   provided by Spring Boot that arranges for the test to run in the context of a Spring MVC application.
                     it arranges for Controller to be registered in Spring MVC so that you can throw request against it.
                 >   the test class is injected with a MockMvc object for the test to drive the mockup(?)
-
+//TODO
             *   @Autowired
                 >
-
-
 
         -   pom.xml
                 <packing> - jar
@@ -81,8 +79,6 @@ Chapter 1
                 *   Built in H2 Console
                     >   use http://localhost:8080/h2-console to gain insight into the data your application is working with
 
-        -
-
 
         Knowledge
 
@@ -108,7 +104,7 @@ Chapter 1
 
                 #   FreeMarker;
 
-            -   Junit
+            -   JUnit
                 @RunWith(SpringRunner.class)
                     @RunWith
                     >   providing a test runner(测试运行器) that guides JUnit in running a test. Think of it as a plugin to JUnit to provide custom testing behavior.
@@ -127,12 +123,10 @@ Chapter 1
                     >   provide by spring boot
                         *   arranges test in the context of a Spring MVC
                         *   arranges Controllers to be registered in Spring MVC
-
+// TODO
             -   Spring landscape
                 *   the core spring framework
                 *
-
-
 
         English
 
@@ -143,12 +137,14 @@ Chapter 1
                     E.g. Remember to take some paper, a pen, etc
                 intact
                     >   complete & in the original state
-                        E.g.    The church destroyed in the bombing but the alter survived intact.
+                        E.g.    The church destroyed in the bombing but the altar survived intact.
+                                altar /ˈɔl·tər/
+                                >   a holy table in a church or temple
+                                    the higher altar (= the most important one in a particular church) 教堂正祭台
                     >   not damaged
                 downside
                     >   a disadvantage of a situation
                         E.g.    The downside of living here, of course, is that it is expensive.
-
 
             Sentences
                 *   Now it's time to fire up your IDE, dust off your keyboard, and add some custom code to the Taco Cloud application.
@@ -161,7 +157,7 @@ Chapter 1
                                 E.g. This path goes down to the river.
                         #   When the sun goes down, it moves down in the sky until it can not be seen any more
                         #   to be reduced in price, value, amount, quality, level, or size
-                                E.g. The temperature went down to minus ten last night.
+                                E.g. The temperature went down _to_ minus ten last night.
                                      The swelling's gone down but there's still a lot of bruising.
                         #   to be remembered or recorded in a particular way
                                 E.g. Hurricane Katrina will go down in the record books as the costliest storm ever faced by insures.
@@ -174,13 +170,12 @@ Chapter 1
                         #   (UK slang) to be put in prison
                         #   if a computer goes down, it stops working
                         #   (US slang) If an event such as a crime or a deal goes down, it happens
-                                E.g. I tried to tell Tyrell what was going down, but he wouldn't listen
+                                E.g. I tried to tell Tyrell _what was going down_, but he wouldn't listen
                         #   if you go down from a college or university, especially Oxford University or Cambridge University, you leave permanently
                             or on holiday
                 *   One thing I have glossed over up until now is DevTools.
                         gloss over - to treat sth. in a way that fails to recognize the importance or its' faults
-
-
+// TODO
         Question
 
             *   <dependency>
