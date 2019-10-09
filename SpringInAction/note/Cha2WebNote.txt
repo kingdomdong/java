@@ -8,7 +8,7 @@ Chapter 2
         -   Spring web application
 
             *   Controller
-                >   fectch and process data;
+                >   fetch and process data;
                 #   handle a request off to a view to render HTML;
                     *   Handle request;
                     *   Build ingredients;
@@ -26,7 +26,7 @@ Chapter 2
         -   Validation in Spring MVC
                 *   Declare the validation rules on the class that is to be validated (Taco.claa);
                 *   Validation should be performed in the controller methods that require validation (::processOrder() & ::processDesign());
-                *   Form views should display validaiton errors;
+                *   Form views should display validation errors;
 
         -   Thymeleaf tags
                 *   ${}
@@ -96,7 +96,7 @@ Chapter 2
 
                 palette /ˈpæl·ɪt/
                 >   a thin board with a hole in it _for the thumb to go throuth_, used by artists for mixing colors when painting
-                >   (usally sing.) the colors used by particular artists
+                >   (usually sing.) the colors used by particular artists
 
                 litter /ˈlɪt̬·ər/
                 [n.]
@@ -137,11 +137,11 @@ Chapter 2
                     with foreign countries
                     brightly-colored exotic birds/plants/flowers
                     She travels all kinds of exotic locations all over the world.
-                exoticly
+                exotically
                     rainbows of exoticly colored blooms
                 exotica[U]
                 >   unusual and exciting things, especially from other counties
-                exotisim[U]
+                exoticism[U]
                 >   the quality of being exciting and unusual that sth has because it is connected with foreign countries
 
                 criterion /krɑɪˈtɪər·i·ən/ [pl. criteria]
@@ -167,7 +167,6 @@ Chapter 2
                             E.g.    Combine all the ingredients for the stew.
                         stew /stuː/
                         >   a type of food consisting usually of meat or fish and vegetables cooked slowly in a small amount of liquid
-
 
                 *   The class-level @RequestMapping specification is refined with the @GetMapping annotation that adores the showDesignForm() method.
                         refine /rɪˈfɑɪn/
