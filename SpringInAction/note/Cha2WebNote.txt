@@ -153,14 +153,13 @@ Chapter 2
                 >   to ask sb to come, especially to emergency
 
             Sentences
-                *   Before you write the controler and view, let's hammer out the domain type that represents an ingredient.
+                *   Before you write the controller and view, let's hammer out the domain type that represents an ingredient.
 
                     hummer out
                     >   to reach an agreement or solution after a lot of argument or discussion.
                         Three years after the accident the lawyers finally managed to hammer out a settlement with the insurance company.
                         PHRASAL
                         to hammer out an agreement/solution/deal, etc.
-
                     ingredient /ɪnˈɡriː.di.ənt/
                     >   a food that is used with other foods in the preparation a particular dish;
                             E.g.    This list of ingredient included 250g of almonds.
