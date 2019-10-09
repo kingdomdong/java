@@ -25,7 +25,7 @@ public class DesignTacoController {
     @GetMapping
     public String showDesignForm(Model model) {
         List<Ingredient> ingredients = Arrays.asList(
-                new Ingredient("FLTO", "Flour Tortilla", Type.WRAP),
+                new Ingredient("FLTO", "Flour Tortilla", Type.WRAP),    // wheat
                 new Ingredient("COTO", "Corn Tortilla", Type.WRAP),
                 new Ingredient("GRBF", "Ground Beef", Type.WRAP),
                 new Ingredient("CARN", "Carnitas", Type.PROTEIN),
