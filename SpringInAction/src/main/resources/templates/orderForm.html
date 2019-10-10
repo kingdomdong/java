@@ -9,7 +9,7 @@
 
     <body>
 
-        <form method="POST" th:action="@{/orders}" th:object="order">
+        <form method="POST" th:action="@{/orders}" th:object="${order}">
 
             <h1>Order your taco creations!</h1>
 
@@ -24,7 +24,7 @@
 
             <h3>Deliver my masterpieces to...</h3>
             <label for="name">Name: </label>
-            <input type="text" th:field=*"{name}"/>
+            <input type="text" th:field="*{name}"/>
             <br/>
 
             <label for="street">Street: </label>
