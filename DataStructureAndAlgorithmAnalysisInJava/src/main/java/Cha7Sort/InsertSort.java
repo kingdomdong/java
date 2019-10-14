@@ -8,7 +8,7 @@ public class InsertSort <AnyType extends Comparable<? super AnyType>> {
     void sort(AnyType[] a) {
         AnyType cur = a[0];
         for (int i = 0; i < a.length; i++) {
-            cur = 
+//            cur =
             for (int j = 0; j < i; j++) {
 
             }

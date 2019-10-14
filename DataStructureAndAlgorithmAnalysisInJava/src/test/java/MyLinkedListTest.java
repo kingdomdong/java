@@ -1,5 +1,3 @@
-package Cha3ADT;
-
 import org.junit.Test;
 
 class MyLinkedListTest {
