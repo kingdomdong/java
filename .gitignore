@@ -8,3 +8,4 @@ ssm-base/*.pdf
 */.idea/
 */out/
 */**/*.iml
+*/.classpath

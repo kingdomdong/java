@@ -1,0 +1,190 @@
+Chapter 1
+    Notes:
+        - outline
+        * AND > Definition
+        # collection AND list
+
+    Chapter 1
+        -   Explicit Configuration
+                >   only necessary if Spring is unable to automatically configure the components
+                    #  Java
+                    #   XML
+
+        -   Automatic Configuration
+                tech
+                    #   component scanning
+                        >   discover components from classpath
+                        >   create beans in Spring Application Context
+                    #   autowiring
+                        >   inject components
+
+        -   Spring boot configuration
+                *   Spring boot
+                    >   an extension of Spring Framework that offers several productivity enhancements
+                *   auto-configuration
+
+        -   Annotation
+            *   @SpringBootApplication
+                #   @SpringBootConfiguration
+                #   @EnableAutoConfiguration
+                #   @ComponentScan
+                    have Spring Automatically discover and register them as components in the Spring application context
+
+            *   @Controller
+                classpath scanning
+
+            *   @WebMvcTest
+                >   provided by Spring Boot that arranges for the test to run in the context of a Spring MVC application.
+                    it arranges for Controller to be registered in Spring MVC so that you can throw request against it.
+                >   the test class is injected with a MockMvc object for the test to drive the mockup(?)
+//TODO
+            *   @Autowired
+                >
+
+        -   pom.xml
+                <packing> - jar
+                    Whereas WAR files are perfect suitable for deploying to a traditional Java application server,
+                    they're not a natural fit for most cloud platforms.
+
+                    If you are willing to deploy an application to a traditional Java application server, then you'll need to choose
+                    WAR packaging and include a web initializer class. (In chapter 2)
+
+                <spring-boot-starter>
+                    starter dependencies
+                        #   smaller & easier
+                        #   wonder what capabilities they provide, in stead of add a laundry list of individual libraries in a Web application.
+                        #   be freed from the burden of worry about library version, but Spring Boot version.
+
+                <plugin>
+                    #   It provides a Maven goal that enables you run the application using Maven.
+                    #   It ensures that all dependency libraries are included within the executable JAR file and available on the runtime classpath.
+                    #   It produces a manifest file in the JAR file that denotes the bootstrap class (TacoCloudApplication.class) as the main class
+                        for the executable JAR.
+
+                    *   <artificialId>maven-shade-plugin<artificialId>
+                        >   for the simple convenience of making the JAR executable.
+                        >   provide the capability to package the artifact in an uber-jar, including its dependencies and to shade
+                            -i.e. rename - the package of some of the dependencies.
+
+        -   DevTools
+                *   Automatic application restart
+                    >   application loaded into 2 class loaders in JVM
+                        #   one class loader is loaded in the src/main path of the project (change frequently)
+                        #   the other is loaded with dependency libraries (keep intact)
+                *   Automatic brower refresh
+                    >   enables a livereload server along with your application;
+                        add chrome LiveReload extention
+                *   Automatic disable of template cache
+                    >   by default, thymeleaf options are configured to cache the results of template parsing
+                *   Built in H2 Console
+                    >   use http://localhost:8080/h2-console to gain insight into the data your application is working with
+
+
+        Knowledge
+
+            -   Maven Wrapper
+                >   an excellent choice for projects that need a special version of Maven.
+                    Instead of installing many versions of it in the operating system, we can just use the project-specific wrapper script.
+                >   use these scripts to build your project even if you don't have Maven installed on your machine.
+
+                ·   mvnw
+                    >   it's an executable Unix shell script used in place of a fully installed Maven
+                ·   mvnw.cmd
+                    >   it's the batch version of the above script
+                ·   mvn
+                    >   the hidden folder that holds the Maven Wrapper Java library and its properties file
+
+            -   view
+                #   Thymeleaf
+                    *   <img th:src=
+                    *   @{"/images/TacoCloud.png"}  // context-relative path
+
+                #   JSP;
+                        there some challenges to ovrecome;
+
+                #   FreeMarker;
+
+            -   JUnit
+                @RunWith(SpringRunner.class)
+                    @RunWith
+                    >   providing a test runner(测试运行器) that guides JUnit in running a test. Think of it as a plugin to JUnit to provide custom testing behavior.
+
+                    SpringRunner
+                    >    In this case, JUnit is given SpringRunner, a Spring-provided test runner that provides the creation of a Spring application context that the
+                        test will run against.
+
+                    SpringJUnit4ClassRunner
+                    >   SpringRunner's alias
+
+                @SpringBootTest
+                    >   tells JUnit to bootstrap the test with Spring Boot capabilities.
+
+                @WebMvcTest
+                    >   provide by spring boot
+                        *   arranges test in the context of a Spring MVC
+                        *   arranges Controllers to be registered in Spring MVC
+// TODO
+            -   Spring landscape
+                *   the core spring framework
+                *
+
+        English
+
+            Words
+                taco /ta:kou/
+                    >   a type of Mexican food consisting of crisp fried PANCAKE that is folded over and filled with meat, BEANS, etc.
+                etc. /et'set.., .it/ (etcetera)
+                    E.g. Remember to take some paper, a pen, etc
+
+                tortilla /tɔrˈti·ə/
+
+                intact
+                    >   complete & in the original state
+                        E.g.    The church destroyed in the bombing but the altar survived intact.
+                                altar /ˈɔl·tər/
+                                >   a holy table in a church or temple
+                                    the higher altar (= the most important one in a particular church) 教堂正祭台
+                    >   not damaged
+                downside
+                    >   a disadvantage of a situation
+                        E.g.    The downside of living here, of course, is that it is expensive.
+
+            Sentences
+                *   Now it's time to fire up your IDE, dust off your keyboard, and add some custom code to the Taco Cloud application.
+                    fire sb. up - to make sb. become very exited, interested, or angry
+                *   I didn't want to go down that rabbit hole in Chapter1.
+                        go down
+                        #   to move down to a lower level or place
+                                E.g. He went down on his knees & begged for forgiveness.
+                        #   to reach or go as far as
+                                E.g. This path goes down to the river.
+                        #   When the sun goes down, it moves down in the sky until it can not be seen any more
+                        #   to be reduced in price, value, amount, quality, level, or size
+                                E.g. The temperature went down _to_ minus ten last night.
+                                     The swelling's gone down but there's still a lot of bruising.
+                        #   to be remembered or recorded in a particular way
+                                E.g. Hurricane Katrina will go down in the record books as the costliest storm ever faced by insures.
+                        #   to be received in a particular way
+                                E.g. The joke didn't go down very well.
+                        #   to lose or be defeated
+                                E.g. England's unbeaten run of ten games ended last night when they went down 4-2 to France.
+                                     Dictators rarely go down without fight.
+                        #   (UK football) if a football team goes down, it drops to a lower division(= group of teams who play each other)
+                        #   (UK slang) to be put in prison
+                        #   if a computer goes down, it stops working
+                        #   (US slang) If an event such as a crime or a deal goes down, it happens
+                                E.g. I tried to tell Tyrell _what was going down_, but he wouldn't listen
+                        #   if you go down from a college or university, especially Oxford University or Cambridge University, you leave permanently
+                            or on holiday
+                *   One thing I have glossed over up until now is DevTools.
+                        gloss over - to treat sth. in a way that fails to recognize the importance or its' faults
+// TODO
+        Question
+
+            *   <dependency>
+                selenium in pom.xml
+
+            *   mocking in JUnit test
+
+
+    在程序届，小白程序员一言不合，我忍着。中级程序员一言不合，我跟你吵。在我这里，一言不合我跟你扒源码，举栗子。

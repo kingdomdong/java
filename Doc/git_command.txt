@@ -1,0 +1,193 @@
+# 查看远程仓库
+git remote -v
+
+# 列出所有分支, -a 所有分支
+git branch
+# 删除分支
+git branch -d <name>
+# 强制删除分支
+git branch -D <name>
+# 本地分支关联远程分支
+git branch --set-upstream-to=origin/<branch> localbranch
+
+# 检出远程仓库origin的dev分支到本地
+git checkout -b dev(本地分支) origin/dev(远程分支)
+
+# 切换分支
+git checkout <name>
+
+# 撤销工作区的修改
+git checkout --<file>
+
+# 从远程仓库拉取当前分支别人的提交， 
+git pull
+# 使用rebase拉取远端代码，git fetch + git rebase 
+git pull -r
+
+# 把本地仓库master分支的最新提交推送至远程仓库master分支上
+git push origin(远程仓库的名字) master(分支)
+# 强制提交版本，用于撤销远程提交，谨慎使用
+git push origin --force
+
+# 合并分支
+git merge <name>
+
+# 强制禁用Fast forward模式
+git merge --no-ff -m "<message>" <name>
+
+# 合并选项， --no-commit 不提交，自己查验后手动提交， -Xours 冲突使用本地版本， -Xtheirs 冲突使用外部版本
+git merge -Xours
+
+# 合并分支，线性合并
+git rebase
+
+# 设置交互模式，可以修改commit message，合并commit
+git rebase –i 
+
+# 查看日志，看到分支的合并情况
+git log --graph --pretty=oneline --abbrev-commit
+# 根据用户名查询日志, --no-merges 排除合并， --merges 只看合并
+git log --graph --no-merges --author=chenfei
+# 搜索日志
+git log --stat --grep=str
+# 单个文件日志记录
+git log -- <filename>
+# 查看单个提交列表， git show --stat 也可以
+git show --stat commitid
+
+# 合并分支到master
+git checkout master  
+git cherry-pick <commitid>
+# 取消 cherry-pick
+git cherry-pick --abort
+# 继续 cherry-pick
+git cherry-pick --continue
+
+# 合并多个分支到master，范围 <commit1> ~ <commit2>
+git checkout -b newbranch <commit2>
+git rebase --onto master <commit1>^
+
+# 暂存当前修改， -u 暂存未跟踪文件， -a 所有修改
+git stash save "<msg>" -u
+# 删除第一个stash并恢复到工作目录
+git stash pop stash@{0}
+# 查看所有暂存文件列表， --patch 或 -p 查看diff修改
+git stash show stash@{0}
+# 查看所有暂存记录
+git stash list
+# 删除第一个队列
+git stash drop stash@{0}
+# 应用第一个队列
+git stash apply stash@{0}
+
+# 文件重命名， -v 显示修改， -f 强制修改， -n 显示预计修改， -k 跳过错误
+git mv [-v] [-f] [-n] [-k] <source> <destination>
+
+# 把添加文件/修改文件放置到暂存区
+git add <file>
+
+# (以/结尾)把添加文件夹(包括文件夹内所有内容)放置到暂存区
+git add <dir>
+
+# 把删除文件放置到暂存区
+git rm <file>
+
+# (以/结尾)把删除文件夹(包括文件夹内所有内容)放置到暂存区
+git rm -r <dir>
+
+# 提交代码
+git commit -m "<message>"
+# 改写上一次提交
+git commit --amend
+
+# 回退到当前版本(最后一次提交的版本)
+git reset --hard HEAD
+# 回退到上一个版本
+git reset --hard HEAD^
+# 回退到上上一个版本
+git reset --hard HEAD^^
+# 回退到上100个版本
+git reset --hard HEAD~100
+# 回退到指定版本
+git reset --hard <commitid>
+# 回退到当前版本，保留暂存区修改
+git reset –-soft HEAD
+# 回退到当前版本，回退暂存区，本地文件不修改
+git reset --mixed HEAD
+
+# 回退到当前版本，但是保留修改
+git revert
+
+# 查看当前分支状态
+git status
+
+# 查看文件修改
+git diff <file>
+
+# 查看历史命令
+git reflog
+
+# 使用长路径，避免 Filename too long 错误
+git config --global core.longpaths true
+
+# 冲突覆盖本地代码
+git fetch --all
+git checkout --<filepath>
+git pull
+
+# error: Untracked working tree file 'xxx' would be overwritten by merge.
+git reset --hard HEAD
+git clean -f -d
+git pull
+# 删除当前目录下所有没有track过的文件. 不管他是否是.gitignore文件里面指定的文件夹和文件
+git clean -xfd
+
+# fatal: bad object refs/remotes/origin/HEAD
+# error: failed to run repack
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/dev
+git fetch --prune
+git gc
+
+# 拉取代码
+git clone git@10.45.156.100:PEIM-Group/PEIM-GIT-DEMO.git
+
+# 导出新修改文件文件
+git archive -o /D/Project/00_temp/patch/patch1220.zip HEAD $(git diff --name-only HEAD)
+git diff --name-only HEAD | xargs tar -jcvf /D/Project/00_temp/patch/patch0410.tar.bz2
+
+# 导出两个commit之间文件
+git archive --format=zip HEAD `git diff --name-only 新的commit 旧的commit` > a.zip
+
+# 忽略跟踪
+git update-index --assume-unchanged src/PEIM_WEB_BOOT/src/main/resources/config.xml
+
+# 忽略文件夹跟踪
+git ls-files -z | xargs -0 git update-index --assume-unchanged
+
+# 恢复跟踪
+git update-index --no-assume-unchanged src/PEIM_WEB_BOOT/src/main/resources/config.xml
+
+# 查找所有忽略文件
+git ls-files -v | grep '^h\ '
+
+# 所有被忽略的文件，取消忽略
+git ls-files -v | grep '^h' | awk '{print $2}' |xargs git update-index --no-assume-unchanged
+
+# 设置全局忽略文件
+git config --global core.excludesfile /D/Project/02_Git/.gitignore_global
+
+# 使用 http 方式，配置保存用户名密码
+git config --global credential.helper store
+
+
+# 打tag
+# 查看tag
+git tag
+# 在某个commit上打tag
+git tag test_tag c809ddbf83939a89659e51dc2a5fe183af384233
+# !!!本地tag推送到线上
+git push origin test_tag
+# 本地删除tag
+git tag -d test_tag
+# 本地tag删除了，再执行该句，删除线上tag
+git push origin :refs/tags/test_tag

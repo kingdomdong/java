@@ -1,0 +1,196 @@
+Chapter 2
+    Notes:
+        [-] outline
+        [>] Definition
+        [# AND *] collection AND list
+
+
+        -   Spring web application
+
+            *   Controller
+                >   fetch and process data;
+                #   handle a request off to a view to render HTML;
+                    *   Handle request;
+                    *   Build ingredients;
+                    *   hand off data to view templates;
+                #   write data directly to the body of a response(RESTful)
+
+            *   View
+                >   render data into HTML;
+
+            components:
+                *   Domain classes;
+                *   Controller;
+                *   View template;
+
+        -   Validation in Spring MVC
+                *   Declare the validation rules on the class that is to be validated (Taco.claa);
+                *   Validation should be performed in the controller methods that require validation (::processOrder() & ::processDesign());
+                *   Form views should display validation errors;
+
+        -   Thymeleaf tags
+                *   ${}
+                *   #field.hasErrors()
+                *   @{}
+                *
+
+        -   pom.xml
+                <optional> - true
+
+        Configuration
+            -   Lombok
+                1)  add dependency;
+                2)  config IDE;
+
+        Knowledge
+            -   Lombok
+                @Slf4j;
+
+            -   Validation
+
+                    -   Junit
+                        @RunWith(SpringRunner.class)
+                            @RunWith
+                            >   providing a test runner(测试运行器) that guides JUnit in running a test. Think of it as a plugin to JUnit to provide custom testing behavior.
+
+                            SpringRunner
+                            >    In this case, JUnit is given SpringRunner, a Spring-provided test runner that provides the creation of a Spring application context that the
+                                test will run against.
+
+        English
+
+            Words
+
+                succinct /səkˈsɪŋkt/
+                >   (of writing & speeching)clear & short; expressing what needs to be said without unnecessary words:
+                    Keep your letter succinct & to the point.
+
+                lengthy /ˈleŋ·θi/
+                >   very long, and often too long, in time or size:
+                    lengthy delays;
+                    the lengthy process of obtaining a visa;
+                    a lengthy explanation;
+
+                designate /ˈdez.ɪɡ.neɪt/
+                >   to say officially that sb./sth. has a particular character or name;
+                    to describe sb/sth in a particular way;
+                    PHRASAL
+                    designate sb/sth (as (having/being)) sth
+                    E.g.    Several pupils were designated as having moderate or severe learning difficulties.
+                            a designate natural reserve.
+                >   to choose or name sb. for a particular job or position:
+                    The director is allowed to designate his/her successor.(继承人)
+                >   to show sth. using a particular mark or sign:
+                    PHRASAL
+                    designate sth (by sth)
+                    The different types are designated by the letters A, B and C.
+
+                snippet /ˈsnɪp·ɪt/ [SYN snatch, extract]
+                >   a small piece of information or news:
+                    Have you got any interesting snippets for me?
+                >   a short piece of a conversation, piece of music, etc.
+
+                pallet /ˈpæl.ɪt/
+                >   a heavy wooden or metal base that can be used for moving or storing goods
+                >   a cloth bag filled with STRAW, used for sleeping on
+
+                palette /ˈpæl·ɪt/
+                >   a thin board with a hole in it _for the thumb to go throuth_, used by artists for mixing colors when painting
+                >   (usually sing.) the colors used by particular artists
+
+                litter /ˈlɪt̬·ər/
+                [n.]
+                >   small piece of rubbish/garbage such as paper, cans and bottles, that people have left lying in a public palce
+                    There will be fines for people who drop litter.
+                >   a number of things that are lying in an untidy way (litter of sth)
+                    The floor was covered with a litter of newspapers, clothes & empty cups.
+                >   a dry substance that is put in a shallow open box for pets, especially cats, to use _as a toilet_ when they are in doors
+                >   a number of babies that a mother gives birth to at the same time
+                >   the substance, especially STRAW, used _for farm animals to sleep on
+                >   a kind of chair or bed that was used in the past _for carrying important people.
+                [v.]
+                >   to be spread around a place, making it look untidy
+                    Piles of books and newspapers littered the floor.
+                >   be littered with sth
+                    Your essay is littered with spelling mistakes.
+
+                cumbersome /ˈkʌm·bər·səm/ [SYN bulky /ˈbʌl·ki/]
+                >   large and heavy; difficult to carry;
+                    cumbersome machinery
+                >   slow & complicated;
+                    cumbersome legal procedures
+                >   (of words or phrases)long & complicated;
+                    The organization changed its cumbersome title to sth. _easier to remember_.
+
+                transient /ˈtræn·ʃənt, -dʒənt, -zi·ənt/
+                [adj.]
+                >   continuing for (only a short time) [SYN fleeting, temporary]
+                    the transient nature of speech
+                >   staying or working in a place for only a short time, before moving on
+                    a city with a large transient population (= of students, temporary workers, etc)
+                    *   transience
+                        the transience of human life
+                [n.] (especially NAmE) a person who stays or works in a place for only a short time, before moving on
+
+                exotic /ɪɡˈzɑt̬·ɪk/
+                >   from or in another country, especially a tropical one; seeming exciting and unusual because it is connected
+                    with foreign countries
+                    brightly-colored exotic birds/plants/flowers
+                    She travels all kinds of exotic locations all over the world.
+                exotically
+                    rainbows of exoticly colored blooms
+                exotica[U]
+                >   unusual and exciting things, especially from other counties
+                exoticism[U]
+                >   the quality of being exciting and unusual that sth has because it is connected with foreign countries
+
+                criterion /krɑɪˈtɪər·i·ən/ [pl. criteria]
+                >   a standard or principle by which sth is judged, or with the help of which of a decision is made
+                    The main criterion is value for money.(划算)
+
+            Phrases
+                call sb out
+                >   to ask sb to come, especially to emergency
+
+            Sentences
+                *   Before you write the controller and view, let's hammer out the domain type that represents an ingredient.
+
+                    hummer out
+                    >   to reach an agreement or solution after a lot of argument or discussion.
+                        Three years after the accident the lawyers finally managed to hammer out a settlement with the insurance company.
+                        PHRASAL
+                        to hammer out an agreement/solution/deal, etc.
+                    ingredient /ɪnˈɡriː.di.ənt/
+                    >   a food that is used with other foods in the preparation a particular dish;
+                            E.g.    This list of ingredient included 250g of almonds.
+                    >   one of the parts in a mixture;
+                            E.g.    Combine all the ingredients for the stew.
+                        stew /stuː/
+                        >   a type of food consisting usually of meat or fish and vegetables cooked slowly in a small amount of liquid
+
+                *   The class-level @RequestMapping specification is refined with the @GetMapping annotation that adores the showDesignForm() method.
+                        refine /rɪˈfɑɪn/
+                        >   to make a substance pure by removing unwanted material:
+                            Sugar & oil are refined before use.
+                        >   to improve it by making small changes:
+                            We haven't finished refining the plan yet.
+
+                        adore /əˈdoʊr/
+                        >   to love & respect sb. very much, or to like sth. very much:
+                            Both girls adored their father.
+                            I adore these shoes!
+                        >   to worship
+                            Let us adore God for all his works.
+
+                *   Maven to date has been very stable for users, is available on most systems or is easy to procure.
+                        procure /prəˈkjʊr, proʊ-/
+                        >   to obtain sth. especially(esp.) with difficulty
+                            PHRASE
+                            procure sth. (for sb./sth.);
+                            procure sb. sth.
+                        >   to provide a PROSTITUTE for sb.
+                            He was accused of procuring under-age girls.
+
+《牛津词典》
+    经常使用：
+        for sb/sth to do sth.

@@ -17,15 +17,6 @@ public class MyLinkedList<AnyType> implements Iterable<AnyType> {
         doClear();
     }
 
-    public void doClear() {
-        beginMaker = new Node<AnyType>(null, null, null);
-        endMaker = new Node<AnyType>(null, beginMaker, null);
-        beginMaker.next = endMaker;
-
-        theSize = 0;
-        modCount++;
-    }
-
     public int size() {
         return theSize;
     }
@@ -58,6 +49,15 @@ public class MyLinkedList<AnyType> implements Iterable<AnyType> {
 
     public AnyType remove(int idx) {
         return remove(getNode(idx));
+    }
+
+    private void doClear() {
+        beginMaker = new Node<AnyType>(null, null, null);
+        endMaker = new Node<AnyType>(null, beginMaker, null);
+        beginMaker.next = endMaker;
+
+        theSize = 0;
+        modCount++;
     }
 
     /**
@@ -136,11 +136,18 @@ public class MyLinkedList<AnyType> implements Iterable<AnyType> {
     public void print() {
         Iterator<AnyType> iterator = iterator();
         while (iterator.hasNext()) {
-            iterator.remove();
             System.out.print(iterator.next() + " ");
         }
 
         System.out.println("End");
+    }
+
+    public void removeAll() {
+
+        Iterator<AnyType> iterator = iterator();
+        while (iterator.hasNext()) {
+            iterator.remove();
+        }
     }
 
     @Override
@@ -149,10 +156,9 @@ public class MyLinkedList<AnyType> implements Iterable<AnyType> {
     }
 
     private static class Node<AnyType> {
-
         public AnyType data;
-        public Node prev;
-        public Node next;
+        public Node<AnyType> prev;
+        public Node<AnyType> next;
 
         public Node(AnyType d, Node p, Node n) {
             data = d;
@@ -165,13 +171,13 @@ public class MyLinkedList<AnyType> implements Iterable<AnyType> {
 
         private Node<AnyType> current = beginMaker.next;
 
-        private int expectedModCount = modCount;
-
+        private int expectedModCount = modCount;    // not allowed be added element when use iterator
+                                                    // which means that concurrent modification happened
         private boolean okToRemove = false;
 
         @Override
         public boolean hasNext() {
-            return current != endMaker;
+            return current != endMaker; // or there's no such element
         }
 
         @Override
@@ -193,7 +199,7 @@ public class MyLinkedList<AnyType> implements Iterable<AnyType> {
         public void remove() {
             if (expectedModCount != modCount) {
                 throw new java.util.ConcurrentModificationException("LinkedListIterator::remove()");
-            } else if (!okToRemove) { // base on next() node
+            } else if (!okToRemove) { // base on next() node & next() invocation
                 throw new IllegalStateException("LinkedListIterator::remove()");
             }
 
@@ -203,7 +209,7 @@ public class MyLinkedList<AnyType> implements Iterable<AnyType> {
         }
     }
 
-/*    public static void main(String[] args) {
+    public static void main(String[] args) {
         MyLinkedList<Integer> myLinkedList = new MyLinkedList<>();
         myLinkedList.add(8);
         myLinkedList.add(5);
@@ -218,10 +224,11 @@ public class MyLinkedList<AnyType> implements Iterable<AnyType> {
 
         myLinkedList.print();
 
-        myLinkedList.remove(2);
-        myLinkedList.print();
+        myLinkedList.remove(0);
+//        myLinkedList.print();
         myLinkedList.add(2, -1);
-        myLinkedList.print();
-    }*/
+//        myLinkedList.print();
+//        myLinkedList.removeAll();
+    }
 
 }
