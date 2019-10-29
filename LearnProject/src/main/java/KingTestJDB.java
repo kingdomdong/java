@@ -1,4 +1,4 @@
-package test.jdbc;
+package main.java;
 
 import java.io.PrintWriter;
 import java.sql.Connection;
