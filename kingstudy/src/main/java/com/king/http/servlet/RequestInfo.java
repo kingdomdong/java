@@ -1,4 +1,4 @@
-package com.king.bean.http.servlet.request;
+package com.king.http.servlet;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
