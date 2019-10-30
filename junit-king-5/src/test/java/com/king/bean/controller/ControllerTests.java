@@ -1,12 +1,14 @@
 package com.king.bean.controller;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.mockito.ArgumentMatcher;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
+import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.boot.test.web.client.TestRestTemplate;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 //@ExtendWith(SpringExtension.class)
 
@@ -19,13 +21,12 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 @SpringBootTest(webEnvironment = WebEnvironment.DEFINED_PORT) // , classes = ControllerTests.class)
 public class ControllerTests {
 
-	@Autowired
-	private TestRestTemplate restTemplate;
+	@MockBean
+	public TestRestTemplate restTemplate;
 
 	@Test
 	public void controllerTest() {
-		String msg;
-		msg = restTemplate.getForObject("http://localhost:8080/test/hello", String.class);
+		String msg = restTemplate.getForObject("http://localhost:8080/test/hello", String.class);
 		assertEquals("Hello World!", msg);
 	}
 
