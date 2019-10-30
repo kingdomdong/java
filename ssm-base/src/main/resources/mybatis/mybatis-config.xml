@@ -6,9 +6,9 @@
 	<!-- <properties resource="jdbc.properties"></properties> -->
 
 	<typeAliases>
-		<typeAlias alias="role" type="com.king.ssm.pojo.Role" />
-		<!-- <typeAlias alias="user" type="com.king.ssm.pojo.User" />
-		<typeAlias alias="sexEnum" type="com.king.ssm.enumeration.SexEnum" /> -->
+		<typeAlias alias="role" type="com.king.bean.ssm.pojo.Role" />
+		<!-- <typeAlias alias="user" type="User" />
+		<typeAlias alias="sexEnum" type="SexEnum" /> -->
 		<package name="com.king.ssm.pojo" />
 		<package name="com.king.ssm.enumeration" />
 	</typeAliases>
@@ -16,10 +16,10 @@
 	<typeHandlers>
 		<!-- way 1 -->
 		<!-- <typeHandler
-			handler="com.king.ssm.chapter4.typehandler.MyTypeHandler"
+			handler="MyTypeHandler"
 			jdbcType="VARCHAR" javaType="string" /> -->
 		<!-- <typeHandler
-			handler="com.king.ssm.chapter4.typehandler.SexEnumTypeHandler"
+			handler="SexEnumTypeHandler"
 			jdbcType="INTEGER" javaType="sexEnum" /> -->
 			
 		<!-- way 2 + MyTypeHandler annotations of @jdbcType & @javaType -->
@@ -49,7 +49,7 @@
 		<!-- <mapper resource="com/king/ssm/mapper/chapter5/EmployeeMapper.xml"/> -->
 
 	<!-- way 2 _ relates to class RoleMapper directly -->
-		<mapper class="com.king.ssm.mapper.chapter3.RoleMapper2" />
+		<mapper class="com.king.bean.ssm.mapper.chapter3.RoleMapper2" />
 		
 		<package name="com.king.ssm.mapper.chapter5"/>
 	</mappers>
