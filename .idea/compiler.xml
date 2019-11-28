@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ssm-base" />
-        <module name="taco-cloud" />
         <module name="network-program" />
-        <module name="data-structure" />
-        <module name="learn-project" />
+        <module name="taco-cloud" />
+        <module name="FizzBuzz" />
+        <module name="ssm-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="data-structure" target="1.8" />
+      <module name="FizzBuzz" target="1.8" />
       <module name="learn-project" target="1.8" />
       <module name="network-program" target="1.8" />
       <module name="ssm-base" target="1.8" />
@@ -23,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FizzBuzz" options="-parameters" />
       <module name="data-structure" options="-parameters" />
       <module name="learn-project" options="-parameters" />
       <module name="network-program" options="-parameters" />

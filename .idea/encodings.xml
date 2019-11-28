@@ -5,5 +5,6 @@
     <file url="file://$PROJECT_DIR$/learn-project" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/network-programming" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-in-action" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tdd/FizzBuzz" charset="UTF-8" />
   </component>
 </project>
