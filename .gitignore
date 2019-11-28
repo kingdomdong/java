@@ -6,6 +6,7 @@
 */*.class
 */**/*.pdf
 */.idea/
+.idea/
 */out/
 */**/*.iml
 */.classpath
