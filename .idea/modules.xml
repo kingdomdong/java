@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../tdd/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/../tdd/FizzBuzz/FizzBuzz.iml" />
       <module fileurl="file://$PROJECT_DIR$/kick-out-code-smell/kick-out-code-smell.iml" filepath="$PROJECT_DIR$/kick-out-code-smell/kick-out-code-smell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mars-rover/mars-rover.iml" filepath="$PROJECT_DIR$/mars-rover/mars-rover.iml" />
       <module fileurl="file://$PROJECT_DIR$/network-programming/network-program.iml" filepath="$PROJECT_DIR$/network-programming/network-program.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm-base/ssm-base.iml" filepath="$PROJECT_DIR$/ssm-base/ssm-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-in-action/taco-cloud.iml" filepath="$PROJECT_DIR$/spring-in-action/taco-cloud.iml" />
