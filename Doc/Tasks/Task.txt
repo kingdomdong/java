@@ -1,0 +1,85 @@
+2019.01.15
+	1. cop-ods 模块中 mybatis 写法，sql 语句中 DATE_ADD(start_date, INTERVAL expr unit); 
+	用法：
+		http://www.mysqltutorial.org/mysql-date_add/ (DATE_ADD)
+		http://www.mysqltutorial.org/mysql-interval/ (INTERVAL)
+		http://www.mysqltutorial.org/mysql-jdbc-tutorial/ (JDBC)
+
+
+2019.02.15
+	word document - Programming.docx
+	chrome - unclosed tabs
+
+
+wonderful website:
+	SPRING
+		https://docs.spring.io/spring/docs/current/spring-framework-reference/
+		https://github.com/spring-projects
+
+		https://github.com/spring-cloud
+
+
+
+2019.02.20
+	spring-mvc TO spring-boot
+	links: https://docs.spring.io/spring-boot/docs/current/reference/html/howto-traditional-deployment.html#howto-convert-an-existing-application-to-spring-boot
+
+
+	1.	AbstractClass / Interface 如何被子类继承
+	2.	MultiPart File [] Controller传递数组
+	3.	
+
+
+
+2019.08.14
+	spring testing：
+		mock
+
+	Redis Mysql
+
+
+
+
+2019.08.16
+	transaction
+
+
+
+
+2019.08.20
+	one parallel compute code example
+	concurrent programming
+	mock junit
+	spring
+	java 8
+
+2019.09.25
+	1)	源与事件分离：通过配置策略(策略 Enumeration 改为 DB设计)
+	cop-alarm
+		package com.znv.cop.event.def;
+		package com.znv.cop.event.enums;
+		package com.znv.cop.event.executor;
+	2)	cop-ods
+		流程、任务配置
+	3)	cop-itm
+
+2019-10-15
+	- ELK system
+		Logstash;
+		https://juejin.im/post/5bdab0caf265da394a7ac53e
+
+2019-11-02
+	- ThreadPoolUtil
+	- ServiceUtil.getBean(.. , ..)
+
+
+
+
+
+
+
+
+
+
+
+

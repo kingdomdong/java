@@ -1,0 +1,18 @@
+1、Mysql - 
+
+2、Oracal - 
+
+3、Linux - 
+
+4、设计模式 - 
+
+5、servlet、web 
+
+6、java基础 - 马士兵
+
+
+
+reflection annotation
+
+
+insert ignore into ... 
