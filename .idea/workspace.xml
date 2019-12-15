@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48dde22a-328a-4f33-af5a-f613338ade83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/controller/Rotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/controller/Rotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SpringInAction/target/" />
@@ -95,7 +92,11 @@
         <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/UtcTime.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -436,7 +437,7 @@
       <workItem from="1574086039264" duration="598000" />
       <workItem from="1574214457813" duration="2951000" />
       <workItem from="1574498862905" duration="36642000" />
-      <workItem from="1575604474055" duration="18812000" />
+      <workItem from="1575604474055" duration="19205000" />
     </task>
     <servers />
   </component>
@@ -473,19 +474,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64950000" />
+    <option name="totallyTimeSpent" value="65343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8409586" visible="true" weight="0.23581848" />
-      <window_info id="Structure" order="1" sideWeight="0.15904139" side_tool="true" visible="true" weight="0.23581848" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84130436" visible="true" weight="0.23581848" />
+      <window_info id="Structure" order="1" sideWeight="0.15869565" side_tool="true" visible="true" weight="0.23581848" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Learn" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49837926" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49837926" weight="0.329927" />
       <window_info anchor="bottom" id="Favorites" order="2" sideWeight="0.49757674" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.75688815" weight="0.19124088" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4943274" weight="0.4" />
@@ -494,10 +495,10 @@
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4983845" weight="0.25342464" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50162077" side_tool="true" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5032415" side_tool="true" visible="true" weight="0.32846716" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49837926" weight="0.329927" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.7536467" weight="0.32846716" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49756888" weight="0.32846716" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.49675852" visible="true" weight="0.32846716" />
       <window_info anchor="bottom" id="Web" order="14" weight="0.270073" />
       <window_info anchor="bottom" id="Spring" order="15" sideWeight="0.49918962" weight="0.329927" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" />
@@ -899,14 +900,18 @@
     <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/UtcTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
