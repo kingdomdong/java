@@ -2,20 +2,27 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="network-program" />
         <module name="mars-rover" />
-        <module name="taco-cloud" />
-        <module name="FizzBuzz" />
         <module name="ssm-base" />
+        <module name="network-program" />
+        <module name="kick-out-code-smell" />
+        <module name="feign" />
+        <module name="FizzBuzz" />
+        <module name="Authorization" />
+        <module name="taco-cloud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Authorization" target="1.8" />
       <module name="data-structure" target="1.8" />
+      <module name="feign" target="11" />
       <module name="FizzBuzz" target="1.8" />
+      <module name="kick-out-code-smell" target="1.8" />
       <module name="learn-project" target="1.8" />
       <module name="mars-rover" target="1.5" />
       <module name="network-program" target="1.8" />
@@ -25,8 +32,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Authorization" options="-parameters" />
       <module name="FizzBuzz" options="-parameters" />
       <module name="data-structure" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="kick-out-code-smell" options="-parameters" />
       <module name="learn-project" options="-parameters" />
       <module name="network-program" options="-parameters" />
       <module name="taco-cloud" options="-parameters" />

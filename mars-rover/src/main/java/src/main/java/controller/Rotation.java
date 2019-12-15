@@ -17,8 +17,8 @@ public class Rotation {
     }
 
     private Direction getDirectionAfterTurn(Direction currentDirection, RotateType rotateType) {
-        Integer indexRivision = getIndexReversion(rotateType);
-        return Direction.getDirectionByRelatedIndex(currentDirection, indexRivision);
+        Integer indexReversion = getIndexReversion(rotateType);
+        return Direction.getDirectionByRelatedIndex(currentDirection, indexReversion);
     }
 
     private Integer getIndexReversion(RotateType rotateType) {

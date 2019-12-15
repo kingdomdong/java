@@ -13,6 +13,9 @@
         <option value="$PROJECT_DIR$/LearnProject/pom.xml" />
         <option value="$PROJECT_DIR$/../tdd/FizzBuzz/pom.xml" />
         <option value="$PROJECT_DIR$/mars-rover/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-SpringData-Redis/SpringDataRedisSample/pom.xml" />
+        <option value="$PROJECT_DIR$/feign/pom.xml" />
+        <option value="$PROJECT_DIR$/kick-out-code-smell/pom.xml" />
       </list>
     </option>
   </component>
