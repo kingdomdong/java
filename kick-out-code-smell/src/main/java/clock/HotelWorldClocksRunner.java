@@ -3,7 +3,7 @@ package clock;
 public class HotelWorldClocksRunner {
 
     public static void main(String[] args) {
-        TimeSubject utcTime = new UtcTime();
+        UtcTime utcTime = new UtcTime();
 
         utcTime.attach("BJ", new CityClock(8));
         utcTime.attach("London", new CityClock(0));
