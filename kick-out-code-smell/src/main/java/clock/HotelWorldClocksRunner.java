@@ -12,7 +12,7 @@ public class HotelWorldClocksRunner {
         utcTime.attach("NewYork", new CityClock(-5));
 
         PhoneClock phoneClock = new PhoneClock(8);
-
+        phoneClock.setUtcTime(utcTime);
         phoneClock.setLocalTime(9);
 
         utcTime.printTimeOfAllClocks();

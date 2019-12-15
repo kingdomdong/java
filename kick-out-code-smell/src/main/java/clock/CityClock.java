@@ -3,7 +3,7 @@ package clock;
 public class CityClock extends Clock {
 
     public CityClock(int utcOffset) {
-        super();
+        super(utcOffset);
     }
 
     @Override

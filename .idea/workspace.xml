@@ -4,7 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/mars-rover/src/test/java/MovementTest.java" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48dde22a-328a-4f33-af5a-f613338ade83" name="Default Changelist" comment="" />
+    <list default="true" id="48dde22a-328a-4f33-af5a-f613338ade83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/CityClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/CityClock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/HotelWorldClocksRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/HotelWorldClocksRunner.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SpringInAction/target/" />
     <ignored path="$PROJECT_DIR$/network-programming/target/" />
@@ -77,12 +81,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding>
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
                 <element signature="e#230#231#0" expanded="true" />
                 <element signature="e#276#277#0" expanded="true" />
               </folding>
@@ -102,17 +108,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/PhoneClock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/CityClock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding>
+                <element signature="e#93#94#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/HotelWorldClocksRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -122,15 +143,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
               <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feign/src/test/java/com/spring/feign/FeignApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -194,8 +206,9 @@
         <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/TimeSubject.java" />
         <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/UtcTime.java" />
         <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/PhoneClock.java" />
-        <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java" />
+        <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/HotelWorldClocksRunner.java" />
         <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/CityClock.java" />
+        <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java" />
       </list>
     </option>
   </component>
@@ -437,7 +450,7 @@
       <workItem from="1574086039264" duration="598000" />
       <workItem from="1574214457813" duration="2951000" />
       <workItem from="1574498862905" duration="36642000" />
-      <workItem from="1575604474055" duration="19822000" />
+      <workItem from="1575604474055" duration="20792000" />
     </task>
     <servers />
   </component>
@@ -474,13 +487,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65960000" />
+    <option name="totallyTimeSpent" value="66930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84130436" visible="true" weight="0.23581848" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84130436" visible="true" weight="0.23581848" />
       <window_info id="Structure" order="1" sideWeight="0.15869565" side_tool="true" visible="true" weight="0.23581848" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -498,7 +510,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5032415" side_tool="true" visible="true" weight="0.32846716" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49837926" weight="0.329927" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.7536467" weight="0.32846716" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49675852" visible="true" weight="0.32846716" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.49675852" visible="true" weight="0.32846716" />
       <window_info anchor="bottom" id="Web" order="14" weight="0.270073" />
       <window_info anchor="bottom" id="Spring" order="15" sideWeight="0.49918962" weight="0.329927" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" />
@@ -538,13 +550,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mars-rover/files/20191128.src/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mars-rover/src/test/java/CoordinateTest.java" />
     <entry file="file://$PROJECT_DIR$/mars-rover/files/20191128.src/Communication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -896,21 +901,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java">
+    <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/PhoneClock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/PhoneClock.java">
+    <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/HotelWorldClocksRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        <state relative-caret-position="210">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -918,6 +919,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
