@@ -5,38 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/UtcTime.java" line="22" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48dde22a-328a-4f33-af5a-f613338ade83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/UtcTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/UtcTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/note/Cha1SpringNote.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/note/Cha1SpringNote.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/com/example/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/exercise/example/InventoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/com/example/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/exercise/example/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/com/example/ServiceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/exercise/example/ServiceConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/com/example/chapter3/JDBCRaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/exercise/example/chapter3/JDBCRaw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Taco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/DesignTacoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/DesignTacoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/tmp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/exercise/tmp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/tmp.xml.tld" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/exercise/tmp.xml.tld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/orderForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/orderForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-in-action/src/test/java/tacos/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/test/java/tacos/HomeControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/Cha2ReflectLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/Cha2ReflectLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/factory/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/factory/CarFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/factory/LaunchAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/factory/LaunchAbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/product/Nissan.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/product/Nissan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/reflect/LaunchJdkReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/reflect/LaunchJdkReflect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/reflect/ReflectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/reflect/ReflectServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="48dde22a-328a-4f33-af5a-f613338ade83" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SpringInAction/target/" />
     <ignored path="$PROJECT_DIR$/network-programming/target/" />
@@ -92,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/resources/templates/orderForm.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-469">
-              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -101,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -110,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Order.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="206">
-              <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -743,7 +712,7 @@
       <workItem from="1574086039264" duration="598000" />
       <workItem from="1574214457813" duration="2951000" />
       <workItem from="1574498862905" duration="36642000" />
-      <workItem from="1575604474055" duration="55976000" />
+      <workItem from="1575604474055" duration="56188000" />
     </task>
     <servers />
   </component>
@@ -780,7 +749,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102114000" />
+    <option name="totallyTimeSpent" value="102326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1245,14 +1214,14 @@
     <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
-          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1262,7 +1231,7 @@
     <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/resources/templates/orderForm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-469">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>
