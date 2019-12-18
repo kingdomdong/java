@@ -8,7 +8,7 @@ package com.king.bean.ssm.chapter2.reflect;
  */
 public class ReflectServiceImpl {
 
-	public void sayHello() {
+	public void sayHello(String name) {
 		System.out.println("Hello");
 	}
 

@@ -2,9 +2,41 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/mars-rover/src/test/java/MovementTest.java" line="14" />
+    <bookmark url="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/UtcTime.java" line="22" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48dde22a-328a-4f33-af5a-f613338ade83" name="Default Changelist" comment="" />
+    <list default="true" id="48dde22a-328a-4f33-af5a-f613338ade83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/UtcTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/UtcTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/note/Cha1SpringNote.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/note/Cha1SpringNote.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/com/example/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/exercise/example/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/com/example/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/exercise/example/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/com/example/ServiceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/exercise/example/ServiceConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/com/example/chapter3/JDBCRaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/exercise/example/chapter3/JDBCRaw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Taco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/DesignTacoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/DesignTacoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/tmp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/exercise/tmp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/java/tmp.xml.tld" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/exercise/tmp.xml.tld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/orderForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/orderForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-action/src/test/java/tacos/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-action/src/test/java/tacos/HomeControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/Cha2ReflectLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/Cha2ReflectLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/factory/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/factory/CarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/factory/LaunchAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/factory/LaunchAbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/product/Nissan.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/product/Nissan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/reflect/LaunchJdkReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/reflect/LaunchJdkReflect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/reflect/ReflectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/reflect/ReflectServiceImpl.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SpringInAction/target/" />
     <ignored path="$PROJECT_DIR$/network-programming/target/" />
@@ -16,11 +48,31 @@
     <ignored path="$PROJECT_DIR$/SpringBoot-SpringData-Redis/SpringDataRedisSample/target/" />
     <ignored path="$PROJECT_DIR$/feign/target/" />
     <ignored path="$PROJECT_DIR$/kick-out-code-smell/target/" />
+    <ignored path="$PROJECT_DIR$/isomorphic/target/" />
+    <ignored path="$PROJECT_DIR$/thinkdatastructures/target/" />
+    <ignored path="$PROJECT_DIR$/thinkdatastructures_self/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -28,123 +80,72 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot-SpringData-Redis/SpringDataRedisSample/src/main/java/com/sample/dal/RedisConfig.java">
+        <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/DesignTacoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-              <folding>
-                <element signature="e#1108#1123#1" expanded="true" />
-                <element signature="e#1158#1173#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-in-action/src/test/java/tacos/HomeControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feign/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+            <state relative-caret-position="93">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/TimeSubject.java">
+        <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/resources/templates/orderForm.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-469">
+              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java">
+        <entry file="file://$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/factory/LaunchAbstractFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/UtcTime.java">
+        <entry file="file://$PROJECT_DIR$/ssm-base/ssm-base.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-base/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="1879">
+              <caret line="134" column="39" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/PhoneClock.java">
+        <entry file="file://$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/reflect/ReflectServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/CityClock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-              <folding>
-                <element signature="e#93#94#0" expanded="true" />
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/HotelWorldClocksRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kick-out-code-smell/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -163,6 +164,8 @@
     <findStrings>
       <find>workCard</find>
       <find>getEmployeeTask</find>
+      <find>GetMapping</find>
+      <find>lombok</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,24 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kick-out-code-smell/src/main.java" />
-        <option value="$PROJECT_DIR$/learn-project/src/main/java/com/king/object/aggregationList.java" />
-        <option value="$PROJECT_DIR$/learn-project/src/main/java/com/king/object/CompleteFuture.java" />
-        <option value="$PROJECT_DIR$/learn-project/src/main/java/com/king/object/AggregationList.java" />
-        <option value="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/communication/Range.java" />
-        <option value="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/communication/Turn.java" />
-        <option value="$PROJECT_DIR$/mars-rover/src/main/java/Distance.java" />
-        <option value="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/communication/Distance.java" />
-        <option value="$PROJECT_DIR$/mars-rover/pom.xml" />
-        <option value="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/marsrover/Communication.java" />
-        <option value="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/exception/MarsRoverException.java" />
-        <option value="$PROJECT_DIR$/mars-rover/src/test/java/CoordinateTest.java" />
-        <option value="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/communication/Coordinate.java" />
-        <option value="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/communication/RotationType.java" />
-        <option value="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/communication/Rotation.java" />
-        <option value="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/communication/Command.java" />
-        <option value="$PROJECT_DIR$/mars-rover/src/test/java/MarsRoverTest.java" />
-        <option value="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/communication/Movement.java" />
         <option value="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/marsrover/MarsRover.java" />
         <option value="$PROJECT_DIR$/mars-rover/files/20191128.src/MarsRover.java" />
         <option value="$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/communication/Position.java" />
@@ -205,12 +190,41 @@
         <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/UtcTime.java" />
         <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/TimeSubject.java" />
         <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/Clock.java" />
-        <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/UtcTime.java" />
         <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/CityClock.java" />
-        <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java" />
         <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/PhoneClock.java" />
-        <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/HotelWorldClocksRunner.java" />
         <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/TimeSubject.java" />
+        <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/UtcTime.java" />
+        <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java" />
+        <option value="$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/HotelWorldClocksRunner.java" />
+        <option value="$PROJECT_DIR$/isomorphic/src/test/java/Isomorphic.java" />
+        <option value="$PROJECT_DIR$/isomorphic/src/main/java/main/java/Isomorphic.java" />
+        <option value="$PROJECT_DIR$/isomorphic/pom.xml" />
+        <option value="$PROJECT_DIR$/isomorphic/src/test/java/IsomorphicTest.java" />
+        <option value="$PROJECT_DIR$/isomorphic/src/test/java/Recorder.java" />
+        <option value="$PROJECT_DIR$/isomorphic/src/main/java/Isomorphic.java" />
+        <option value="$PROJECT_DIR$/thinkdatastructures/pom.xml" />
+        <option value="$PROJECT_DIR$/thinkdatastructures/src/main/java/Comparable.java" />
+        <option value="$PROJECT_DIR$/thinkdatastructures/src/main/java/ListClientExample.java" />
+        <option value="$PROJECT_DIR$/thinkdatastructures_self/pom.xml" />
+        <option value="$PROJECT_DIR$/isomorphic/src/main/java/Recorder.java" />
+        <option value="$PROJECT_DIR$/spring-in-action/src/main/java/com/example/ProductService.java" />
+        <option value="$PROJECT_DIR$/spring-in-action/src/main/java/tmp.xml" />
+        <option value="$PROJECT_DIR$/spring-in-action/exercise/example/InventoryService.java" />
+        <option value="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/HomeController.java" />
+        <option value="$PROJECT_DIR$/spring-in-action/src/test/java/tacos/HomeControllerTest.java" />
+        <option value="$PROJECT_DIR$/spring-in-action/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/design.html" />
+        <option value="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Taco.java" />
+        <option value="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/DesignTacoController.java" />
+        <option value="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/Cha2ReflectLauncher.java" />
+        <option value="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/product/Nissan.java" />
+        <option value="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/utils/Exceptions.java" />
+        <option value="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/factory/LaunchAbstractFactory.java" />
+        <option value="$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/factory/CarFactory.java" />
+        <option value="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Order.java" />
+        <option value="$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/OrderController.java" />
+        <option value="$PROJECT_DIR$/spring-in-action/src/main/resources/templates/orderForm.html" />
       </list>
     </option>
   </component>
@@ -232,8 +246,10 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="true" />
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -244,37 +260,292 @@
           <expand>
             <path>
               <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="isomorphic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kick-out-code-smell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kick-out-code-smell" type="462c0819:PsiDirectoryNode" />
+              <item name="isomorphic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kick-out-code-smell" type="462c0819:PsiDirectoryNode" />
+              <item name="isomorphic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kick-out-code-smell" type="462c0819:PsiDirectoryNode" />
+              <item name="isomorphic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kick-out-code-smell" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tacos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tacos" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tacos" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tacos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="cglib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KingProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="king" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,16 +555,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="12" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21649486" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -304,7 +580,13 @@
       <recent name="" />
       <recent name="src.main.java.marsrover" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-in-action/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring-in-action/exercise" />
+      <recent name="$PROJECT_DIR$/spring-in-action" />
       <recent name="$PROJECT_DIR$/mars-rover/files/20191128.test" />
       <recent name="$PROJECT_DIR$/mars-rover/files/20191128.src" />
     </key>
@@ -322,15 +604,9 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.HomeControllerTest">
-    <configuration name="CompleteFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.king.object.CompleteFuture" />
-      <module name="learn-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.king.object.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ListClientExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListClientExample" />
+      <module name="thinkdatastructures" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -350,6 +626,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomeControllerTest.testHomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taco-cloud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tacos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tacos" />
+      <option name="MAIN_CLASS_NAME" value="tacos.HomeControllerTest" />
+      <option name="METHOD_NAME" value="testHomePage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsomorphicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="isomorphic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsomorphicTest.isEggAndAddIsomorphic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="isomorphic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IsomorphicTest" />
+      <option name="METHOD_NAME" value="isEggAndAddIsomorphic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MarsRover" type="JUnit" factoryName="JUnit">
       <module name="mars-rover" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -360,33 +671,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarsRoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mars-rover" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MarsRoverTest" />
-      <option name="METHOD_NAME" value="isMatchNorthWhenEastTurnLeft" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MovementTest" type="JUnit" factoryName="JUnit">
       <module name="mars-rover" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MovementTest" />
       <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mars-rover" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RotationTest" />
-      <option name="METHOD_NAME" value="isMatchEastWhenNorthTurnRight" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <method v="2">
@@ -415,22 +704,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CompleteFuture" />
       <item itemvalue="JUnit.MovementTest" />
       <item itemvalue="JUnit.MarsRover" />
-      <item itemvalue="JUnit.RotationTest" />
-      <item itemvalue="JUnit.MarsRoverTest" />
       <item itemvalue="Spring Boot.TacoCloudApplication" />
       <item itemvalue="JUnit.HomeControllerTest" />
       <item itemvalue="Spring Boot.AuthorizationApplication" />
       <item itemvalue="Spring Boot.FeignApplication" />
+      <item itemvalue="JUnit.IsomorphicTest.isEggAndAddIsomorphic" />
+      <item itemvalue="JUnit.IsomorphicTest" />
+      <item itemvalue="Application.ListClientExample" />
+      <item itemvalue="JUnit.HomeControllerTest.testHomePage" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HomeControllerTest" />
-        <item itemvalue="JUnit.MarsRoverTest" />
-        <item itemvalue="JUnit.RotationTest" />
-        <item itemvalue="Application.CompleteFuture" />
+        <item itemvalue="JUnit.HomeControllerTest.testHomePage" />
+        <item itemvalue="Application.ListClientExample" />
+        <item itemvalue="JUnit.IsomorphicTest" />
+        <item itemvalue="JUnit.IsomorphicTest.isEggAndAddIsomorphic" />
       </list>
     </recent_temporary>
   </component>
@@ -452,74 +743,84 @@
       <workItem from="1574086039264" duration="598000" />
       <workItem from="1574214457813" duration="2951000" />
       <workItem from="1574498862905" duration="36642000" />
-      <workItem from="1575604474055" duration="21343000" />
+      <workItem from="1575604474055" duration="55976000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MarsRover - 2019.12.01 at 22h 06m 58s.xml">
-      <configuration name="MarsRover" configurationId="JUnit" />
+    <history-entry file="IsomorphicTest - 2019.12.16 at 20h 11m 44s.xml">
+      <configuration name="IsomorphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRover - 2019.12.01 at 22h 07m 47s.xml">
-      <configuration name="MarsRover" configurationId="JUnit" />
+    <history-entry file="IsomorphicTest - 2019.12.16 at 20h 13m 20s.xml">
+      <configuration name="IsomorphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRover - 2019.12.01 at 22h 09m 01s.xml">
-      <configuration name="MarsRover" configurationId="JUnit" />
+    <history-entry file="IsomorphicTest - 2019.12.16 at 20h 16m 50s.xml">
+      <configuration name="IsomorphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRover - 2019.12.01 at 22h 10m 21s.xml">
-      <configuration name="MarsRover" configurationId="JUnit" />
+    <history-entry file="IsomorphicTest - 2019.12.16 at 20h 18m 00s.xml">
+      <configuration name="IsomorphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRover - 2019.12.02 at 09h 10m 45s.xml">
-      <configuration name="MarsRover" configurationId="JUnit" />
+    <history-entry file="IsomorphicTest - 2019.12.16 at 20h 18m 29s.xml">
+      <configuration name="IsomorphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRover - 2019.12.02 at 09h 12m 31s.xml">
-      <configuration name="MarsRover" configurationId="JUnit" />
+    <history-entry file="IsomorphicTest - 2019.12.16 at 21h 04m 31s.xml">
+      <configuration name="IsomorphicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRover - 2019.12.02 at 09h 23m 22s.xml">
-      <configuration name="MarsRover" configurationId="JUnit" />
+    <history-entry file="HomeControllerTest - 2019.12.17 at 14h 04m 10s.xml">
+      <configuration name="HomeControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRover - 2019.12.02 at 09h 26m 10s.xml">
-      <configuration name="MarsRover" configurationId="JUnit" />
+    <history-entry file="HomeControllerTest_testHomePage - 2019.12.17 at 15h 36m 09s.xml">
+      <configuration name="HomeControllerTest.testHomePage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MarsRover - 2019.12.02 at 09h 27m 04s.xml">
-      <configuration name="MarsRover" configurationId="JUnit" />
+    <history-entry file="HomeControllerTest - 2019.12.17 at 15h 37m 55s.xml">
+      <configuration name="HomeControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HomeControllerTest - 2019.12.06 at 11h 57m 22s.xml">
+    <history-entry file="HomeControllerTest - 2019.12.17 at 15h 38m 33s.xml">
       <configuration name="HomeControllerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67481000" />
+    <option name="totallyTimeSpent" value="102114000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84130436" visible="true" weight="0.23581848" />
-      <window_info id="Structure" order="1" sideWeight="0.15869565" side_tool="true" visible="true" weight="0.23581848" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57528955" visible="true" weight="0.20664506" />
+      <window_info id="Structure" order="1" sideWeight="0.42471042" side_tool="true" weight="0.23581848" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Learn" order="4" />
+      <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49837926" weight="0.329927" />
       <window_info anchor="bottom" id="Favorites" order="2" sideWeight="0.49757674" side_tool="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.75688815" weight="0.19124088" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4943274" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.7471637" weight="0.25839415" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.6596434" visible="true" weight="0.29781023" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4983845" weight="0.25342464" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4983845" weight="0.25255474" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5032415" side_tool="true" visible="true" weight="0.32846716" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.34035656" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49837926" weight="0.329927" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.7536467" weight="0.32846716" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.49675852" visible="true" weight="0.32846716" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.7414911" weight="0.32846716" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49675852" weight="0.32846716" />
       <window_info anchor="bottom" id="Web" order="14" weight="0.270073" />
       <window_info anchor="bottom" id="Spring" order="15" sideWeight="0.49918962" weight="0.329927" />
-      <window_info anchor="bottom" id="Java Enterprise" order="16" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.4989605" visible="true" weight="0.24959481" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
@@ -527,11 +828,29 @@
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info anchor="right" id="Json Parser" order="8" />
       <window_info anchor="right" id="PlantUML" order="9" />
-      <window_info anchor="right" x="0" y="0" width="269" height="577" id="Documentation" order="10" side_tool="true" visible="true" weight="0.09400324" />
+      <window_info anchor="right" x="0" y="0" width="269" height="577" id="Documentation" order="10" sideWeight="0.5010395" side_tool="true" visible="true" weight="0.24959481" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/HotelWorldClocksRunner.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -553,400 +872,397 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mars-rover/src/test/java/CoordinateTest.java" />
-    <entry file="file://$PROJECT_DIR$/mars-rover/files/20191128.src/Communication.java">
+    <entry file="file://$PROJECT_DIR$/isomorphic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="271">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphic/src/main/java/Isomorphic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="204" column="25" selection-start-line="204" selection-start-column="25" selection-end-line="204" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/constant/ConstantDesc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="1152" column="16" selection-start-line="1152" selection-start-column="16" selection-end-line="1152" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#44504#44505#0" expanded="true" />
+            <element signature="e#44539#44540#0" expanded="true" />
+            <element signature="e#44967#44968#0" expanded="true" />
+            <element signature="e#45001#45002#0" expanded="true" />
+            <element signature="e#57191#57192#0" expanded="true" />
+            <element signature="e#57255#57256#0" expanded="true" />
+            <element signature="e#57833#57834#0" expanded="true" />
+            <element signature="e#57889#57890#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/files/20191128.test/RotationTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="510">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/files/20191128.test/MovementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/files/20191128.src/Command.java">
+    <entry file="file://$PROJECT_DIR$/thinkdatastructures/src/main/java/Comparable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/files/20191128.src/RotationType.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="-7733">
+          <caret line="505" column="16" selection-start-line="505" selection-start-column="16" selection-end-line="505" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/files/20191128.src/Rotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/files/20191128.src/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/files/20191128.test/MarsRoverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/files/20191128.src/Movement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/files/20191128.src/MarsRover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/src/test/java/MovementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/src/test/java/RotationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/communication/RotateType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/communication/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/communication/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#303#304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/controller/Movement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="96" selection-start-line="27" selection-start-column="96" selection-end-line="27" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/communication/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mars-rover/src/main/java/src/main/java/controller/Rotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/DesignTacoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/WebConfig.java">
+    <entry file="file://$PROJECT_DIR$/thinkdatastructures_self/src/main/java/ListClientExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.8.RELEASE/spring-test-5.1.8.RELEASE-sources.jar!/org/springframework/test/web/servlet/request/MockMvcRequestBuilders.java">
+    <entry file="file://$PROJECT_DIR$/thinkdatastructures_self/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkDataStructures/solutions/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1141">
+          <caret line="373" selection-start-line="373" selection-end-line="373" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isomorphic/src/main/java/Recorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/exercise/example/ServiceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/exercise/example/chapter3/JDBCRaw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/exercise/tmp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/exercise/tmp.xml.tld">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/exercise/example/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/exercise/example/InventoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/TacoCloudApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="90">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/2.2.2.RELEASE/spring-boot-maven-plugin-2.2.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="142" column="15" lean-forward="true" selection-start-line="142" selection-start-column="15" selection-end-line="142" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-in-action/src/test/java/tacos/TacoCloudApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/resources/mapper/chapter5/TaskMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/resources/mapper/chapter5/MaleHealthFormMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/resources/mapper/chapter5/EmployeeTaskMapper.xml">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.6.RELEASE/spring-boot-dependencies-2.1.6.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/pojo/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/pojo/EmployeeTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/mapper/chapter5/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/resources/mapper/chapter5/Employee.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="89" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="89" />
+        <state relative-caret-position="116">
+          <caret line="124" column="11" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-in-action/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="125">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot-SpringData-Redis/SpringDataRedisSample/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot-SpringData-Redis/SpringDataRedisSample/src/main/java/com/sample/service/AuthorizationService.java">
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/data/JdbcIngredientRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot-SpringData-Redis/SpringDataRedisSample/src/main/java/com/sample/service/AuthorizationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot-SpringData-Redis/SpringDataRedisSample/src/main/java/com/sample/AuthorizationApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot-SpringData-Redis/SpringDataRedisSample/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot-SpringData-Redis/SpringDataRedisSample/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign/src/main/java/com/spring/feign/FeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign/src/test/java/com/spring/feign/FeignApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot-SpringData-Redis/SpringDataRedisSample/src/main/java/com/sample/dal/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="e#1108#1123#1" expanded="true" />
-            <element signature="e#1158#1173#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="138">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-in-action/src/test/java/tacos/HomeControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="189">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feign/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kick-out-code-smell/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/UtcTime.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Iterable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="-53">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/CityClock.java">
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/data/IngredientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/resources/static/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Ingredient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/resources/templates/design.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="41" column="83" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Taco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/reflect/ReflectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-base/ssm-base.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1879">
+          <caret line="134" column="39" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/factory/LaunchAbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/factory/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/utils/Exceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-559">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/abstraction/product/Nissan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-          </folding>
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/Clock.java">
+    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/Cha2ReflectLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-base/src/main/java/com/king/bean/ssm/chapter2/cglib/LauncherCglib.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/PhoneClock.java">
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/DesignTacoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21-sources.jar!/org/apache/catalina/core/StandardHostValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="59" column="53" lean-forward="true" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/web/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
+          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/HotelWorldClocksRunner.java">
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/java/tacos/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kick-out-code-smell/src/main/java/clock/TimeSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="206">
+          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-in-action/src/main/resources/templates/orderForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-469">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1000,12 +1316,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>feign</last-edited>
+          <last-edited>ssm-base</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.21649486" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

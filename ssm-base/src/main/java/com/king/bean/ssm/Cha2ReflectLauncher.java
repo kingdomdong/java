@@ -9,11 +9,11 @@ import com.king.bean.ssm.chapter2.reflect.ReflectServiceImpl2;
 public class Cha2ReflectLauncher {
 
 	// reflect Class without parameter constructor
-	public static ReflectServiceImpl getInstance() {
+	public static ReflectServiceImpl getInstance(String classPath) {
 		ReflectServiceImpl object = null;
 
 		try {
-			object = (ReflectServiceImpl) Class.forName("ssm.ReflectServiceImpl").getConstructor().newInstance();
+			object = (ReflectServiceImpl) Class.forName(classPath).getConstructor().newInstance();
 		} catch (IllegalAccessException | InstantiationException | InvocationTargetException | ClassNotFoundException
 				| NoSuchMethodException e) {
 			e.printStackTrace();
@@ -54,7 +54,7 @@ public class Cha2ReflectLauncher {
 
 	// test reflect
 	public static void main(String[] args) {
-		ReflectServiceImpl serviceImpl = getInstance();
+		ReflectServiceImpl serviceImpl = getInstance("ssm.ReflectServiceImpl");
 		serviceImpl.sayHello("xinxin");
 
 		ReflectServiceImpl2 serviceImpl2 = getInstance2();

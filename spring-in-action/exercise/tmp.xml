@@ -5,5 +5,5 @@
 
 <bean id="productService"
       class="com.example.InventoryService"/>
+
 <constructor-arg ref="inventoryService"/>
-        </bean>

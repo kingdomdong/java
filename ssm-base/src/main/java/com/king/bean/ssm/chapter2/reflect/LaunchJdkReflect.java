@@ -15,7 +15,7 @@ public class LaunchJdkReflect {
 	public static void main(String[] args) {
 		// object jdk reflect
 		ReflectServiceImpl objectImpl = ReflectServiceImpl.getInstance();
-		objectImpl.sayHello();
+		objectImpl.sayHello("xinxin");
 
 		ReflectServiceImpl2 objeImpl2 = ReflectServiceImpl2.getInstance("Xin");
 		objeImpl2.sayHello();

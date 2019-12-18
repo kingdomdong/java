@@ -37,9 +37,7 @@ public class DesignTacoController {
                 new Ingredient("SRCR", "Sour Cream", Type.SAUCE)
         );
 
-        Type[] types = Type.values();
-
-        for (Type type : types) {
+        for (Type type : Type.values()) {
             model.addAttribute(type.toString().toLowerCase(), filterByType(ingredients, type));
         }
 
@@ -60,10 +58,10 @@ public class DesignTacoController {
      * @return
      */
     @PostMapping
-    public String processingDesign(@Valid @ModelAttribute("design") Taco design, Errors errors, Model model) {
-        if (errors.hasErrors()) {
-            return "design";
-        }
+    public String processingDesign(/*@Valid @ModelAttribute("design")*/ Taco design/*, Errors errors, Model model*/) {
+//        if (errors.hasErrors()) {
+//            return "design";
+//        }
 
         // save the Taco design
         // we'll do this in Chapter3

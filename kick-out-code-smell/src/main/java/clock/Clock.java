@@ -2,7 +2,7 @@ package clock;
 
 public abstract class Clock {
 
-    protected static int UTC_OFFSET = 0;
+    protected int UTC_OFFSET; // each new class will override this field
     protected int localTime = 0;
 
     public Clock(int utcOffset) {
@@ -11,8 +11,12 @@ public abstract class Clock {
 
     public abstract void setLocalTime(int localTime);
 
-    public static int toLocalTime(int utcZeroTime) {
-        return utcZeroTime + UTC_OFFSET;
+    public void setLocalTimeFromUtcZeroTime(int utcZeroTime) {
+        this.localTime = utcZeroTime + UTC_OFFSET;
+    }
+
+    public String getTime() {
+        return String.valueOf(this.localTime);
     }
 
 }

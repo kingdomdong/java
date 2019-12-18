@@ -9,13 +9,13 @@ public class UtcTime extends TimeSubject {
 
     public void setUtcZeroTime(int utcZeroTime) {
         this.utcZeroTime = utcZeroTime;
-        notify();
+        notifyAllClocks();
     }
 
     @Override
     public void notifyAllClocks() {
-        for (Clock clock : clocks.values())
-            clock.setLocalTime(Clock.toLocalTime(utcZeroTime));
+        for (Clock clock : super.clocks.values())
+            clock.setLocalTimeFromUtcZeroTime(utcZeroTime);
     }
 
     public void printTimeOfAllClocks() {

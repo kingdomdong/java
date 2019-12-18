@@ -8,7 +8,7 @@ Chapter 1
         -   Explicit Configuration
                 >   only necessary if Spring is unable to automatically configure the components
                     #  Java
-                    #   XML
+                    #  XML
 
         -   Automatic Configuration
                 tech

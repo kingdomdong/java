@@ -7,14 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mars-rover" />
-        <module name="ssm-base" />
-        <module name="network-program" />
-        <module name="kick-out-code-smell" />
-        <module name="feign" />
-        <module name="FizzBuzz" />
-        <module name="Authorization" />
         <module name="taco-cloud" />
+        <module name="mars-rover" />
+        <module name="network-program" />
+        <module name="Authorization" />
+        <module name="ssm-base" />
+        <module name="FizzBuzz" />
+        <module name="kick-out-code-smell" />
+        <module name="isomorphic" />
+        <module name="thinkdatastructures" />
+        <module name="feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,12 +24,14 @@
       <module name="data-structure" target="1.8" />
       <module name="feign" target="11" />
       <module name="FizzBuzz" target="1.8" />
+      <module name="isomorphic" target="1.8" />
       <module name="kick-out-code-smell" target="1.8" />
       <module name="learn-project" target="1.8" />
       <module name="mars-rover" target="1.5" />
       <module name="network-program" target="1.8" />
       <module name="ssm-base" target="1.8" />
       <module name="taco-cloud" target="1.11" />
+      <module name="thinkdatastructures" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -36,6 +40,7 @@
       <module name="FizzBuzz" options="-parameters" />
       <module name="data-structure" options="-parameters" />
       <module name="feign" options="-parameters" />
+      <module name="isomorphic" options="" />
       <module name="kick-out-code-smell" options="-parameters" />
       <module name="learn-project" options="-parameters" />
       <module name="network-program" options="-parameters" />

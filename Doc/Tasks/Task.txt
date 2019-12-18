@@ -75,6 +75,15 @@ wonderful website:
 	DAO组件；
 	jdk源码 - refactor；
 
+2019-12-17
+	-	MQ
+	-	BDD
+	-	领域层代码
+
+2019-12-18
+	-	DB 隔离级别
+	-	
+
 
 
 

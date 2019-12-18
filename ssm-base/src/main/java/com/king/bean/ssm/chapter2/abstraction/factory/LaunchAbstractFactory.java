@@ -1,6 +1,6 @@
 package com.king.bean.ssm.chapter2.abstraction.factory;
 
-import com.king.ssm.factory.IProduct;
+import com.king.bean.ssm.chapter2.factory.IProduct;
 
 public class LaunchAbstractFactory {
 	
