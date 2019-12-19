@@ -1,4 +1,4 @@
-package com.example.chapter3;
+package tacos.data;
 
 import tacos.Ingredient;
 import tacos.data.IngredientRepository;
