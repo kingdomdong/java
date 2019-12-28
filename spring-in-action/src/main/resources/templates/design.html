@@ -49,7 +49,6 @@
             <div th:each="ingredient:${sauce}">
                 <input name="ingredients" type="checkbox" th:value="${ingredient.id}"/>
                 <span th:text="${ingredient.name}">INGREDIENT</span><br/>
-                <br/>
             </div>
         </div>
     </div>

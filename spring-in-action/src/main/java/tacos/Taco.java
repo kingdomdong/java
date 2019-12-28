@@ -11,17 +11,20 @@ import java.util.List;
 public class Taco {
 
 //    @NotNull
-//    private String id;
-//
+    private String id;
+
 //    @NotNull
-//    private Date createdAt;
+    private Date createdAt;
 
 //    @NotNull
 //    @Size(min = 5, message = "Name must be at least 5 characters long")
+    @NotNull
+    @Size(min = 5, message = "Name must be at least 5 characters long")
     private String name;
 
 //    @Size(min = 1, message = "You must choose at least 1 ingredient")
 //    private List<Ingredient> ingredients;
+    @Size(min = 1, message = "You must choose at least 1 ingredient")
     private List<String> ingredients;
 
 }

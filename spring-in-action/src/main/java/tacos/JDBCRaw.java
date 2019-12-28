@@ -1,6 +1,6 @@
-package tacos.data;
+package tacos;
 
-import tacos.Ingredient;
+import org.springframework.beans.factory.annotation.Autowired;
 import tacos.data.IngredientRepository;
 
 import javax.sql.DataSource;
@@ -12,6 +12,11 @@ import java.sql.SQLException;
 public class JDBCRaw implements IngredientRepository {
 
     private DataSource dataSource;
+
+    @Autowired
+    public JDBCRaw(DataSource dataSource) {
+        this.dataSource = dataSource;
+    }
 
     @Override
     public Iterable<Ingredient> findAll() {
@@ -28,13 +33,12 @@ public class JDBCRaw implements IngredientRepository {
             statement = connection.prepareStatement("select id, name, type from Ingredient");
             statement.setString(1, id);
             resultSet = statement.executeQuery();
-            Ingredient ingredient = null;
             if (resultSet.next()) {
-                ingredient = new Ingredient(resultSet.getString("id"),
+                return new Ingredient(resultSet.getString("id"),
                         resultSet.getString("name"),
                         Ingredient.Type.valueOf(resultSet.getString("type")));
             }
-            return ingredient;
+            return null;
         } catch (SQLException e) {
             e.printStackTrace();
             // ??? what should be done here ???

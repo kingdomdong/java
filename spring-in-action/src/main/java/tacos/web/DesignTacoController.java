@@ -52,19 +52,20 @@ public class DesignTacoController {
 
     /**
      * @ModelAttribute - ?
-     * @param design
+     * @param design @valid is a switch to validate taco design
      * @param errors
      * @param model
      * @return
      */
     @PostMapping
-    public String processingDesign(/*@Valid @ModelAttribute("design")*/ Taco design/*, Errors errors, Model model*/) {
-//        if (errors.hasErrors()) {
-//            return "design";
-//        }
+    public String processingDesign(@Valid /*@ModelAttribute("design")*/ Taco design, Errors errors, Model model) {
+        if (errors.hasErrors()) {
+//            return showDesignForm(model);
+            return "design";
+        }
 
         // save the Taco design
-        // we'll do this in Chapter3
+        // we'll do this in Chapter3 Chapter3
         log.info("Processing design: " + design);
 
         return "redirect:/orders/current";
