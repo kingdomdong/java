@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringBoot-SpringData-Redis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ThinkDataStructures" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gitTest" vcs="Git" />
   </component>
 </project>
