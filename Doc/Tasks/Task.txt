@@ -55,10 +55,10 @@ wonderful website:
 
 2019.09.25
 	1)	源与事件分离：通过配置策略(策略 Enumeration 改为 DB设计)
-	cop-alarm
-		package com.znv.cop.event.def;
-		package com.znv.cop.event.enums;
-		package com.znv.cop.event.executor;
+		cop-alarm
+			package com.znv.cop.event.def;
+			package com.znv.cop.event.enums;
+			package com.znv.cop.event.executor;
 	2)	cop-ods
 		流程、任务配置
 	3)	cop-itm
@@ -78,11 +78,11 @@ wonderful website:
 2019-12-17
 	-	MQ
 	-	BDD
-	-	领域层代码
+	-	领域层代码 (2)
 
 2019-12-18
 	-	DB 隔离级别
-	-	
+	-	request parameters use javax.validation.constrains.*; (1)
 
 
 
