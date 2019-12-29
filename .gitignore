@@ -3,7 +3,7 @@
 */.settings/
 */.classpath/
 */bin/
-*/*.class
+*/**/*.class
 */**/*.pdf
 */.idea/
 .idea/
