@@ -18,11 +18,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * @SessionAttributes specifies any model objects like the order attribute
+ * that should be kept in session and available across multiple requests
+ */
 @Slf4j
 @Controller
 @RequestMapping("/design")
-// specifies any model objects like the order attribute
-// that should be kept in session and available across multiple requests
 @SessionAttributes("order")
 public class DesignTacoController {
 
@@ -35,9 +37,11 @@ public class DesignTacoController {
         this.tacoRepository = tacoRepository;
     }
 
-    // ensures that an Order object will be created in the model
-    // The order object remains in the session.
-    // name - the name of the model attribute to bind to
+    /**
+     * ensures that an Order object will be created in the model
+     * The order object remains in the session.
+     * name - the name of the model attribute to bind to
+     */
     @ModelAttribute(name = "order")
     public Order order() {
         return new Order();
@@ -80,8 +84,10 @@ public class DesignTacoController {
             return "design";
         }
 
-        // save the Taco design
-        // we'll do this in Chapter3
+        /**
+         * save the Taco design
+         * we'll do this in Chapter3
+         */
         log.info("Processing design: " + design);
 
         return "redirect:/orders/current";

@@ -10,15 +10,18 @@ import java.util.Date;
 import java.util.List;
 
 @Data
+//@Entity
+//@Table(name = "Taco_Order")
 public class Order {
 
-    //    @NotBlank(message = "Id is required")
+    //    @Id
+//    @GeneratedValue(strategy = GenerationType.AUTO)
+    @NotBlank(message = "Id is required")
     private Long id;
 
-    //    @NotBlank(message = "Create date required")
+    @NotBlank(message = "placeAt is required")
     private Date placedAt;
 
-    //    @NotBlank(message = "Name is required")
     @NotBlank(message = "Name is required")
     private String name;
 
@@ -43,6 +46,12 @@ public class Order {
     @Digits(integer = 3, fraction = 0, message = "invalid CVV")
     private String ccCVV;
 
+    //    @ManyToMany(targetEntity = Taco.class)
     private List<Taco> tacos;
+
+//    @PrePersist
+//    void placeAt() {
+//        placedAt = new Date();
+//    }
 
 }
