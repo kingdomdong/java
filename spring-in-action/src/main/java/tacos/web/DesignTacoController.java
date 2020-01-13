@@ -73,13 +73,13 @@ public class DesignTacoController {
     /**
      * @param design @valid is a switch to validate taco design
      * @param errors
-     * @param model
+     * @param order
      * @return
      * @ModelAttribute - indicate that its value should come from the model
      * and that Spring MVC shouldn't attempt to bind request parameter to it.
      */
     @PostMapping
-    public String processDesign(@Valid @ModelAttribute("design") Taco design, Errors errors, Model model) {
+    public String processDesign(@Valid @ModelAttribute("design") Taco design, Errors errors, @ModelAttribute Order order) {
         if (errors.hasErrors()) {
             return "design";
         }
@@ -88,6 +88,8 @@ public class DesignTacoController {
          * save the Taco design
          * we'll do this in Chapter3
          */
+        Taco saved = tacoRepository.save(design);
+        order.addDesign(saved);
         log.info("Processing design: " + design);
 
         return "redirect:/orders/current";

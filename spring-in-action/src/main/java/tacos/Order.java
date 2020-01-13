@@ -16,10 +16,10 @@ public class Order {
 
     //    @Id
 //    @GeneratedValue(strategy = GenerationType.AUTO)
-    @NotBlank(message = "Id is required")
+//    @NotBlank(message = "Id is required")
     private Long id;
 
-    @NotBlank(message = "placeAt is required")
+//    @NotBlank(message = "placeAt is required")
     private Date placedAt;
 
     @NotBlank(message = "Name is required")
@@ -48,6 +48,10 @@ public class Order {
 
     //    @ManyToMany(targetEntity = Taco.class)
     private List<Taco> tacos;
+
+    public void addDesign(Taco design) {
+        this.tacos.add(design);
+    }
 
 //    @PrePersist
 //    void placeAt() {
