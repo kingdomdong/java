@@ -7,17 +7,18 @@ import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import java.util.Date;
+import java.util.List;
 
 @Data
 public class Order {
 
-//    @NotBlank(message = "Id is required")
-    private String id;
+    //    @NotBlank(message = "Id is required")
+    private Long id;
 
-//    @NotBlank(message = "Create date required")
-    private Date createdAt;
+    //    @NotBlank(message = "Create date required")
+    private Date placedAt;
 
-//    @NotBlank(message = "Name is required")
+    //    @NotBlank(message = "Name is required")
     @NotBlank(message = "Name is required")
     private String name;
 
@@ -41,5 +42,7 @@ public class Order {
 
     @Digits(integer = 3, fraction = 0, message = "invalid CVV")
     private String ccCVV;
+
+    private List<Taco> tacos;
 
 }

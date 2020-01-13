@@ -11,7 +11,7 @@ import java.util.List;
 public class Taco {
 
 //    @NotNull
-    private String id;
+    private Long id;
 
 //    @NotNull
     private Date createdAt;
@@ -25,6 +25,6 @@ public class Taco {
 //    @Size(min = 1, message = "You must choose at least 1 ingredient")
 //    private List<Ingredient> ingredients;
     @Size(min = 1, message = "You must choose at least 1 ingredient")
-    private List<String> ingredients;
+    private List<Ingredient> ingredients;
 
 }

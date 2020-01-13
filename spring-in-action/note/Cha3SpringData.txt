@@ -1,0 +1,35 @@
+Charpter 3
+
+	-	H2
+		#	Setup
+				Brew install h2
+
+		#	Start/stop
+				To have launched start h2 now and restart at login:
+				Brew services start h2
+				Or, if you don’t want/need a background service you can just run:
+				h2
+
+		#	To have launchd start h2 now and restart at login:
+				  brew services start h2
+			Or, if you don't want/need a background service you can just run:
+				  h2
+			
+		#	H2 console
+				http://192.168.2.199:8082/login.jsp?jsessionid=bf41854d02f9b5ba7cfe97863e704982
+				
+		#	IDEA configuration
+				Schema.sql configuration
+					1)Choose dialect
+						H2
+
+					2)	IDEA default:
+							jdbc:h2:tcp://localhost:9092/default
+
+						H2 embedded
+							jdbc:h2:~/test
+
+						H2 server
+							jdbc:h2:tcp://localhost/~/test
+
+						...
