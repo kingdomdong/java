@@ -53,6 +53,8 @@ wonderful website:
 	spring
 	java 8
 
+
+
 2019.09.25
 	1)	源与事件分离：通过配置策略(策略 Enumeration 改为 DB设计)
 		cop-alarm
@@ -63,10 +65,14 @@ wonderful website:
 		流程、任务配置
 	3)	cop-itm
 
+
+
 2019-10-15
 	- ELK system
 		Logstash;
 		https://juejin.im/post/5bdab0caf265da394a7ac53e
+
+
 
 2019-11-02
 	- ThreadPoolUtil
@@ -75,18 +81,24 @@ wonderful website:
 	DAO组件；
 	jdk源码 - refactor；
 
+
 2019-12-17
 	-	MQ
 	-	BDD
 	-	领域层代码 (2)
+
+
 
 2019-12-18
 	-	DB 隔离级别
 	-	request parameters use javax.validation.constrains.*; (1)
 
 
+
 2019-12-31 11:25:59
 	-	卫语句或提前返回、三元操作符、多态、空对象模式、策略模式、状态模式
+
+
 
 2020-01-09 11:19:47
 	-	其实技术也是有瓶颈的
@@ -99,6 +111,8 @@ wonderful website:
 		软件就是这样，目的都是可以实现的，无非就是多花点力气，多修修补补，但是却可以在一开始选择最合适、最简单的方法去实现
 		所以啊  技术其实也不是咱程序员最重要的，眼光最重要
 
+2020-04-01 09:38:34
+	-	
 
 
 
