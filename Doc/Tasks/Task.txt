@@ -38,12 +38,8 @@ wonderful website:
 	Redis Mysql
 
 
-
-
 2019.08.16
 	transaction
-
-
 
 
 2019.08.20
@@ -52,6 +48,7 @@ wonderful website:
 	mock junit
 	spring
 	java 8
+
 
 
 
@@ -67,10 +64,12 @@ wonderful website:
 
 
 
+
 2019-10-15
 	- ELK system
 		Logstash;
 		https://juejin.im/post/5bdab0caf265da394a7ac53e
+
 
 
 
@@ -82,10 +81,12 @@ wonderful website:
 	jdk源码 - refactor；
 
 
+
 2019-12-17
 	-	MQ
 	-	BDD
 	-	领域层代码 (2)
+
 
 
 
@@ -97,6 +98,7 @@ wonderful website:
 
 2019-12-31 11:25:59
 	-	卫语句或提前返回、三元操作符、多态、空对象模式、策略模式、状态模式
+
 
 
 
@@ -113,6 +115,9 @@ wonderful website:
 
 2020-04-01 09:38:34
 	-	
+
+
+
 
 
 
