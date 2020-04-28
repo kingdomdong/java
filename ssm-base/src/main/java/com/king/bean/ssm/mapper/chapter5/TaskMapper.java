@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface TaskMapper {
 
-	public List<Task> getTask(Long id);
+	List<Task> getTask(Long id);
 	
 }

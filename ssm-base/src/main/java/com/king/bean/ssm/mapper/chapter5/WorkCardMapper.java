@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface WorkCardMapper {
 
-	public List<WorkCard> getWorkCard(Long empId);
+	List<WorkCard> getWorkCard(Long empId);
 	
 }

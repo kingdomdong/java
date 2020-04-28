@@ -12,10 +12,10 @@ public interface Interceptor {
 	 * @param args
 	 * @return
 	 */
-	public boolean before(Object proxy, Object target, Method method, Object[] args);
+    boolean before(Object proxy, Object target, Method method, Object[] args);
 	
-	public void around(Object proxy, Object target, Method method, Object[] args);
+	void around(Object proxy, Object target, Method method, Object[] args);
 	
-	public void after(Object proxy, Object target, Method method, Object[] args);
+	void after(Object proxy, Object target, Method method, Object[] args);
 
 }

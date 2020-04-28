@@ -7,7 +7,7 @@ public enum SexEnum {
 	private Integer id;
 	private String name;
 
-	private SexEnum(Integer id, String name) {
+	SexEnum(Integer id, String name) {
 		this.id = id;
 		this.name = name;
 	}

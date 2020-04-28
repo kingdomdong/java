@@ -6,6 +6,6 @@ import com.king.bean.ssm.pojo.Employee;
 
 public interface EmployeeMapper {
 
-	public List<Employee> getEmployee(Long id);
+	List<Employee> getEmployee(Long id);
 	
 }

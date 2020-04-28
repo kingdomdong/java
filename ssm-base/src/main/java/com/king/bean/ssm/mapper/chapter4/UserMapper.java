@@ -6,6 +6,6 @@ import com.king.bean.ssm.pojo.User;
 
 public interface UserMapper {
 
-	public List<User> getUser(Long id);
+	List<User> getUser(Long id);
 	
 }

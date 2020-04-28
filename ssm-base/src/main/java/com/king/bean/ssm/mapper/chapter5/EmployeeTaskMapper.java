@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface EmployeeTaskMapper {
 	
-	public List<EmployeeTask> getEmployeeTask(Long empId);
+	List<EmployeeTask> getEmployeeTask(Long empId);
 
 }

@@ -6,11 +6,11 @@ import com.king.bean.ssm.pojo.Role;
 
 public interface RoleMapper {
 	
-	public int insertRole(Role role);
-	public int deleteRole(Role role);
-	public int updateRole(Role role);
-	public Role getRole(Long id);
-	public List<Role> findRoles(String roleName);
-	public List<Role> findRoles2(String note);
+	int insertRole(Role role);
+	int deleteRole(Role role);
+	int updateRole(Role role);
+	Role getRole(Long id);
+	List<Role> findRoles(String roleName);
+	List<Role> findRoles2(String note);
 
 }

@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface FemaleHealthFormMapper {
 	
-	public List<FemaleHealthForm> getFemaleHealthForm(Long empId);
+	List<FemaleHealthForm> getFemaleHealthForm(Long empId);
 
 }

@@ -23,13 +23,13 @@ public class SqlSessionFactoryUtils {
 	private static SqlSessionFactory sqlSessionFactory = null;
 
 	public SqlSessionFactoryUtils() {
-	};
+	}
 
-	public static SqlSessionFactory genFactoryByXML() {
+    public static SqlSessionFactory genFactoryByXML() {
 		
 		synchronized (LOCK_CLASS) {
 			if (sqlSessionFactory == null) {
-				try (InputStream in = Resources.getResourceAsStream("jdbc.properties");) {
+				try (InputStream in = Resources.getResourceAsStream("jdbc.properties")) {
 					// CONFIG PROPERTIES
 					Properties properties = new Properties();
 					properties.load(in);
