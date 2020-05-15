@@ -1,4 +1,4 @@
-package com.king.reflect;
+package com.king.reflect.network;
 
 /**
  * common class for reflection
