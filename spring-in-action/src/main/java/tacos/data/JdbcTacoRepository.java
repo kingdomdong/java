@@ -19,7 +19,6 @@ public class JdbcTacoRepository implements TacoRepository {
 
     private JdbcTemplate jdbcTemplate;
 
-    @Autowired
     public JdbcTacoRepository(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
@@ -41,10 +40,8 @@ public class JdbcTacoRepository implements TacoRepository {
                 .newPreparedStatementCreator(
                         Arrays.asList(design.getName(), design.getCreatedAt())
                 );
-
         KeyHolder keyHolder = new GeneratedKeyHolder();
         jdbcTemplate.update(preparedStatementCreator, keyHolder);
-
         return keyHolder.getKey().longValue();
     }
 
