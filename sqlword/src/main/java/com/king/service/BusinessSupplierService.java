@@ -1,21 +1,30 @@
 package com.king.service;
 
+import com.king.mapper.TableMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 @Service
 public class BusinessSupplierService implements IBusinessSupplierService {
 
-    @Override
-    public void getTableTest() {
-        List<Map<String, Object>> listTable =new ArrayList<>();
+    private TableMapper tableMapper;
+
+    @Autowired
+    public BusinessSupplierService(TableMapper tableMapper) {
+        this.tableMapper = tableMapper;
     }
 
     @Override
-    public List<Map<String, Object>> listMap(String sql) {
-        return null;
+    public List<Map<String, Object>> getTableTest(String schema) {
+        return tableMapper.getAllTableName(schema);
     }
+
+    @Override
+    public List<Map<String, Object>> getTableDetail(String tableName, String schema) {
+        return tableMapper.getTableDetail(tableName, schema);
+    }
+
 }

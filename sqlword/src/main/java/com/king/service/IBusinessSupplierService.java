@@ -5,8 +5,8 @@ import java.util.Map;
 
 public interface IBusinessSupplierService {
 
-    void getTableTest();
+    List<Map<String, Object>> getTableTest(String schema);
 
-    List<Map<String, Object>> listMap(String sql);
+    List<Map<String, Object>> getTableDetail(String tableName, String schema);
 
 }

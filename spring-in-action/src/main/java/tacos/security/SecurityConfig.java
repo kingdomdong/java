@@ -1,7 +1,7 @@
 package tacos.security;
 
-import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 /**
@@ -11,7 +11,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
  * @version 1.0
  * @since 2020-01-14
  */
-@Configuration
+//@EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     /**
@@ -24,6 +24,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public void configure(WebSecurity web) throws Exception {
         super.configure(web);
         web.ignoring().antMatchers("/h2-console/**");
+//        web.ignoring().antMatchers("/**");
     }
 
 }
