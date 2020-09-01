@@ -10,7 +10,7 @@ import java.nio.file.Paths;
  * @version 1.0
  * @since 2020-05-05 20:06:31
  */
-public class Listing_2_1_ConvertPath {
+public class ConvertPath {
 
     private static String firstPathName = "/User/kingdomdong/";
     private static String secondPathName = "Documents/dumps/out.pdf";

@@ -11,7 +11,7 @@ import java.nio.file.Paths;
  * @version 1.0
  * @since 2020-05-05 17:46:57
  */
-public class Listing_2_1_CreatePath {
+public class CreatePath {
 
     /**
      * output:

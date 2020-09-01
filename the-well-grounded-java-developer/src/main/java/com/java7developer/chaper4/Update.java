@@ -1,11 +1,11 @@
 package main.java.com.java7developer.chaper4;
 
-public class Listing_4_3_Update {
+public class Update {
 
     private Author author;
     private String updateText;
 
-    private Listing_4_3_Update(Builder builder) {
+    private Update(Builder builder) {
         this.author = builder.author;
         this.updateText = builder.updateText;
     }
@@ -18,7 +18,7 @@ public class Listing_4_3_Update {
         return updateText;
     }
 
-    public static class Builder implements Listing_4_3_1_ObjBuild<Listing_4_3_Update> {
+    public static class Builder implements ObjBuild<Update> {
         private Author author;
         private String updateText;
 
@@ -33,8 +33,8 @@ public class Listing_4_3_Update {
         }
 
         @Override
-        public Listing_4_3_Update build() {
-            return new Listing_4_3_Update(this);
+        public Update build() {
+            return new Update(this);
         }
     }
 

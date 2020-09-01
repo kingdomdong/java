@@ -12,7 +12,7 @@ import java.nio.file.Paths;
  * @since 2020-05-05 20:00:55
  * @version 1.0
  */
-public class Listing_2_2_Directory {
+public class Directory {
 
     public static void main(String[] args) {
         /**

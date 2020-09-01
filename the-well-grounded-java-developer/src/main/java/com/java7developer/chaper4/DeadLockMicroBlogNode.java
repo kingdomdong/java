@@ -1,10 +1,10 @@
 package main.java.com.java7developer.chaper4;
 
-public class Listing_4_2_DeadLockMicroBlogNode implements Listing_4_1_1_SimpleMicroBlogNode {
+public class DeadLockMicroBlogNode implements SimpleMicroBlogNode {
 
     private final String identifier;
 
-    public Listing_4_2_DeadLockMicroBlogNode(String identifier) {
+    public DeadLockMicroBlogNode(String identifier) {
         this.identifier = identifier;
     }
 
@@ -14,7 +14,7 @@ public class Listing_4_2_DeadLockMicroBlogNode implements Listing_4_1_1_SimpleMi
     }
 
     @Override
-    public synchronized void propagateUpdate(Listing_4_3_Update update, Listing_4_1_1_SimpleMicroBlogNode microBlogNode) {
+    public synchronized void propagateUpdate(Update update, SimpleMicroBlogNode microBlogNode) {
         printBlogUpdate(update, identifier);
         try {
             Thread.sleep(2000);
@@ -25,16 +25,16 @@ public class Listing_4_2_DeadLockMicroBlogNode implements Listing_4_1_1_SimpleMi
     }
 
     @Override
-    public synchronized boolean confirmUpdate(Listing_4_1_1_SimpleMicroBlogNode microBlogNode, Listing_4_3_Update update) {
+    public synchronized boolean confirmUpdate(SimpleMicroBlogNode microBlogNode, Update update) {
         printBlogConfirm(microBlogNode, update, identifier);
         return true;
     }
 
-    public static void printBlogUpdate(Listing_4_3_Update update, String identifier) {
+    public static void printBlogUpdate(Update update, String identifier) {
         System.out.println(identifier + ": UPDATE: " + update.getUpdateText() + "调用成功");
     }
 
-    public static void printBlogConfirm(Listing_4_1_1_SimpleMicroBlogNode microBlogNode, Listing_4_3_Update update, String identifier) {
+    public static void printBlogConfirm(SimpleMicroBlogNode microBlogNode, Update update, String identifier) {
         System.out.println(identifier + ": CONFIRM: " + update.getUpdateText() + " from " + microBlogNode.getIdentifier() + "调用成功");
     }
 

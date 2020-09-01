@@ -1,12 +1,10 @@
 package com.king;
 
 import com.king.service.IBusinessSupplierService;
-import com.lowagie.text.Font;
-import com.lowagie.text.*;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.lowagie.text.Document;
+import com.lowagie.text.PageSize;
 import org.springframework.stereotype.Service;
 
-import java.awt.*;
 import java.util.List;
 import java.util.Map;
 
@@ -23,7 +21,9 @@ public class DateToWordUtil {
         this.businessSupplierService = businessSupplierService;
     }
 
-    public void toWord(List<Map<String, Object>> listAll) throws Exception {// 创建word文档,并设置纸张的大小
+    public void toWord(List<Map<String, Object>> listAll) throws Exception {
+        // 创建word文档,并设置纸张的大小
+        Document document = new Document(PageSize.A4);
 
 
     }

@@ -7,7 +7,6 @@ import java.util.ListIterator;
 
 public class AggregationList implements List {
 
-
     @Override
     public int size() {
         return 0;

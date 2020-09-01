@@ -3,11 +3,11 @@ package main.java.com.java7developer.chaper4;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Listing_4_4_RentLockMicroBlogNode implements Listing_4_1_1_SimpleMicroBlogNode {
+public class RentLockMicroBlogNode implements SimpleMicroBlogNode {
     private final String identifier;
     private final Lock lock = new ReentrantLock();
 
-    public Listing_4_4_RentLockMicroBlogNode(String identifier) {
+    public RentLockMicroBlogNode(String identifier) {
         this.identifier = identifier;
     }
 
@@ -17,7 +17,7 @@ public class Listing_4_4_RentLockMicroBlogNode implements Listing_4_1_1_SimpleMi
     }
 
     @Override
-    public void propagateUpdate(Listing_4_3_Update update, Listing_4_1_1_SimpleMicroBlogNode secondBlogNode) {
+    public void propagateUpdate(Update update, SimpleMicroBlogNode secondBlogNode) {
         lock.lock();
         try {
             // break point here will lead to dead lock
@@ -29,7 +29,7 @@ public class Listing_4_4_RentLockMicroBlogNode implements Listing_4_1_1_SimpleMi
     }
 
     @Override
-    public boolean confirmUpdate(Listing_4_1_1_SimpleMicroBlogNode secondBlogNode, Listing_4_3_Update update) {
+    public boolean confirmUpdate(SimpleMicroBlogNode secondBlogNode, Update update) {
         lock.lock();
         try {
             System.out.println(identifier + ": received confirm: " + update.getUpdateText() + " from " + secondBlogNode.getIdentifier());

@@ -11,9 +11,9 @@ public class IntegerIntCompare {
     public static void main(String[] args) {
         // output:
         // true
-        Integer notNullInter = Integer.valueOf("a");
+        Integer notNullInteger = Integer.valueOf("2");
         int j = 2;
-        System.out.println(notNullInter == j);
+        System.out.println(notNullInteger == j);
 
         // java.lang.NullPointerException
         // unboxing integer may produce "NullPointerException"
@@ -25,7 +25,7 @@ public class IntegerIntCompare {
         System.out.println(integer == i);
 
         // After:
-        int origin = Math.subtractExact(1, 2);
+        int origin = Math.subtractExact(2, 1); // Returns the difference of the arguments, throwing an exception if the result overflows an int.
         int destination = 1;
         System.out.println(origin == destination);
     }

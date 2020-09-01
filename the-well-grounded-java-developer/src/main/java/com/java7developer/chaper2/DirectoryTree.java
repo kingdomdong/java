@@ -11,7 +11,7 @@ import java.nio.file.attribute.BasicFileAttributes;
  * @version 1.0
  * @since 2020-05-05 21:44:17
  */
-public class Listing_2_2_DirectoryTree {
+public class DirectoryTree {
 
     public static void main(String[] args) throws IOException {
         /**

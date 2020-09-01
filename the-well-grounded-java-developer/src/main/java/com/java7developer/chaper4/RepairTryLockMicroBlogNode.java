@@ -6,16 +6,17 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * repair try lock node
+ *
  * @author kingdomdong
- * @since 2020-05-18 10:45:39
  * @version 1.0
+ * @since 2020-05-18 10:45:39
  */
-public class Listing_4_6_RepairTryLockMicroBlogNode implements Listing_4_1_1_SimpleMicroBlogNode {
+public class RepairTryLockMicroBlogNode implements SimpleMicroBlogNode {
     private final String identifier;
     private final Lock lock;
     private boolean done;
 
-    public Listing_4_6_RepairTryLockMicroBlogNode(String identifier) {
+    public RepairTryLockMicroBlogNode(String identifier) {
         this.identifier = identifier;
         lock = new ReentrantLock();
     }
@@ -26,14 +27,14 @@ public class Listing_4_6_RepairTryLockMicroBlogNode implements Listing_4_1_1_Sim
     }
 
     @Override
-    public void propagateUpdate(Listing_4_3_Update update, Listing_4_1_1_SimpleMicroBlogNode blogNode) {
+    public void propagateUpdate(Update update, SimpleMicroBlogNode blogNode) {
         boolean acquire = false;
         while (!done) {
             int wait = (int) (Math.random() * 10);
             try {
                 acquire = lock.tryLock(wait, TimeUnit.MICROSECONDS);
                 if (acquire) {
-                    Listing_4_2_DeadLockMicroBlogNode.printBlogUpdate(update, identifier);
+                    DeadLockMicroBlogNode.printBlogUpdate(update, identifier);
                     done = blogNode.confirmUpdate(this, update);
                 }
             } catch (InterruptedException e) {
@@ -54,13 +55,13 @@ public class Listing_4_6_RepairTryLockMicroBlogNode implements Listing_4_1_1_Sim
     }
 
     @Override
-    public boolean confirmUpdate(Listing_4_1_1_SimpleMicroBlogNode blogNode, Listing_4_3_Update update) {
+    public boolean confirmUpdate(SimpleMicroBlogNode blogNode, Update update) {
         boolean acquire = false;
         int wait = (int) (Math.random() * 10);
         try {
             acquire = lock.tryLock(wait, TimeUnit.MILLISECONDS);
             if (acquire) {
-                Listing_4_2_DeadLockMicroBlogNode.printBlogConfirm(blogNode, update, identifier);
+                DeadLockMicroBlogNode.printBlogConfirm(blogNode, update, identifier);
                 return true;
             } else {
                 System.out.println(identifier + " CONFIRM() " + "确认更新的动作发生失败");
