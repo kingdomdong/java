@@ -1,5 +1,8 @@
 package com.king.configuration;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class TestBean {
 
 	private String username;
