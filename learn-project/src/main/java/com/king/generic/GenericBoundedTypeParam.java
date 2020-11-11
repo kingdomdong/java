@@ -42,7 +42,7 @@ public class GenericBoundedTypeParam implements Comparable<GenericBoundedTypePar
         return fir.compareTo(sec);
     }
 
-    public static void main(String[] args) {
+    public void test(String[] args) {
         GenericBoundedTypeParam typeParam = new GenericBoundedTypeParam("xyz");
         GenericBoundedTypeParam typeParam1 = new GenericBoundedTypeParam("abc");
 

@@ -19,7 +19,7 @@ import java.util.Collections;
  */
 @Slf4j
 @Configuration
-@MapperScan("com.znv.**.mapper")
+@MapperScan("com.**.mapper")
 public class MybatisPlusConfiguration {
 
     @Bean

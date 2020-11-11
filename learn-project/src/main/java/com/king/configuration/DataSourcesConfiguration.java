@@ -29,8 +29,8 @@ public class DataSourcesConfiguration {
     @Bean
     @ConfigurationProperties(prefix = "spring.datasource.hikari")
     @Primary
-    public DataSource usmscSchema(DataSourceProperties sourceProperties) {
-        return sourceProperties.initializeDataSourceBuilder().type(HikariDataSource.class).build();
+    public DataSource usmscSchema() {
+        return usmscDataSourceProperties().initializeDataSourceBuilder().type(HikariDataSource.class).build();
     }
 
 }
