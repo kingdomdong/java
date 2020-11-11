@@ -1,7 +1,7 @@
-package com.king.ch2.decorator;
+package com.king.ch3.decorator;
 
-import com.king.ch2.decorator.abstraction.Beverage;
-import com.king.ch2.decorator.abstraction.CondimentDecorator;
+import com.king.ch3.decorator.abstraction.Beverage;
+import com.king.ch3.decorator.abstraction.CondimentDecorator;
 
 /**
  * milk condiment decorator

@@ -1,4 +1,4 @@
-package com.king.ch2.decorator.po;
+package com.king.ch3.decorator.po;
 
 /**
  * beverage size

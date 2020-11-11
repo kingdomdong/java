@@ -1,6 +1,6 @@
-package com.king.ch2.decorator.abstraction;
+package com.king.ch3.decorator.abstraction;
 
-import com.king.ch2.decorator.po.Size;
+import com.king.ch3.decorator.po.Size;
 import lombok.Data;
 
 /**

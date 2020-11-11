@@ -1,7 +1,7 @@
-package com.king.ch2.decorator.component;
+package com.king.ch3.decorator.component;
 
-import com.king.ch2.decorator.abstraction.Beverage;
-import com.king.ch2.decorator.po.Size;
+import com.king.ch3.decorator.abstraction.Beverage;
+import com.king.ch3.decorator.po.Size;
 
 /**
  * decaffeinated coffee beverage

@@ -1,0 +1,98 @@
+#!/bin/bash
+
+JAVA_HOME=/usr/local/java/jdk1.8.0_231/
+JRE_HOME=/usr/local/java/jdk1.8.0_231/jre
+CLASS_PATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+export JAVA_HOME JRE_HOME CLASS_PATH PATH
+
+#export JRE_HOME=/$JAVA_HOME/jre1.8.0_221
+#export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+#export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+
+JVM_OPTS="-server -XX:+TieredCompilation -Xmn192m -XX:+AggressiveOpts -XX:+UseG1GC -XX:+UseStringDeduplication -Xss1m -XX:NewRatio=4 -XX:ParallelGCThreads=2 -XX:CMSFullGCsBeforeCompaction=5 -XX:+UseCMSCompactAtFullCollection  -Denv=UAT -Duat_meta=http://config.powerbridge.com:8183 -Duser.timezone=GMT+08 -Xms512m  -Xmx1024m"
+
+JAVA_OPTIONS="${JAVA_OPTIONS} -Djava.awt.headless=true"
+export JAVA_OPTIONS
+APP_NAME=peim-vas-bpm
+APP_NAME_R=peim-vas-bpm-1.0.0.jar
+LOG_PATH=/home/peim/vas/peim-vas-bpm-1.0.0/logs/peim-vas-bpm.log
+ZIDONGDAOCHU_PATH=/home/peim/Web/inetpub/
+
+usage() {
+    echo "Usage: service peim-vas-bpm [start|stop|restart|status]"
+    exit 1
+}
+
+is_exist(){
+  pid=`ps -ef|grep $APP_NAME_R|grep -v grep|awk '{print $2}'`
+  if [ -z "${pid}" ]; then
+   return 1
+  else
+    return 0
+  fi
+}
+
+start(){
+  is_exist
+  if [ $? -eq 0 ]; then
+    echo "${APP_NAME} is already running. pid=${pid}"
+  else
+	if [ ! -f "$ZIDONGDAOCHU_PATH" ]; then
+		mkdir -p ${ZIDONGDAOCHU_PATH}
+	fi
+	sh /home/peim/vas/peim-vas-bpm-1.0.0/bin/start.sh
+    #nohup java $JVM_OPTS -jar /home/peim/vas/peim-vas-bpm-1.0.0/peim-vas-bpm-1.0.0.jar >/dev/null 2>&1 &
+	while [ ! -f "$LOG_PATH" ]
+     do
+        sleep 1
+     done
+    tailf ${LOG_PATH}
+ fi
+}
+
+stop(){
+  is_exist
+  if [ $? -eq "0" ]; then
+    kill -9 $pid
+    echo "${APP_NAME} is stopped now"
+  else
+    echo "${APP_NAME} is not running"
+  fi  
+}
+
+
+status(){
+  is_exist
+  if [ $? -eq "0" ]; then
+    echo "${APP_NAME} is running. Pid is ${pid}"
+  else
+    echo "${APP_NAME} is NOT running."
+  fi
+}
+
+
+restart(){
+  stop
+  sleep 5
+  start
+}
+
+
+case "$1" in
+  "start")
+    start
+    ;;
+  "stop")
+    stop
+    ;;
+  "status")
+    status
+    ;;
+  "restart")
+    restart
+    ;;
+  *)
+    usage
+    ;;
+esac

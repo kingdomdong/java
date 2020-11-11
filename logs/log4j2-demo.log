@@ -1,0 +1,34 @@
+2020-09-16 14:37:19.507  INFO TEST-ZNV.local --- [           main] c.e.l.Log4j2DemoApplication              : Starting Log4j2DemoApplication on TEST-ZNV.local with PID 17049 (/Users/kingdomdong/Projects_Idea/study/spring-boot-log4j-2-demo/target/classes started by kingdomdong in /Users/kingdomdong/Projects_Idea/java)
+2020-09-16 14:37:19.513 DEBUG TEST-ZNV.local --- [           main] c.e.l.Log4j2DemoApplication              : Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2020-09-16 14:37:19.515  INFO TEST-ZNV.local --- [           main] c.e.l.Log4j2DemoApplication              : No active profile set, falling back to default profiles: default
+2020-09-16 14:37:19.582  INFO TEST-ZNV.local --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d2ffcb7: startup date [Wed Sep 16 14:37:19 CST 2020]; root of context hierarchy
+2020-09-16 14:37:26.080  INFO TEST-ZNV.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-09-16 14:37:26.219  INFO TEST-ZNV.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-16 14:37:26.236  INFO TEST-ZNV.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-09-16 14:37:26.237  INFO TEST-ZNV.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-09-16 14:37:26.254  INFO TEST-ZNV.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/kingdomdong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-09-16 14:37:26.569  INFO TEST-ZNV.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-09-16 14:37:26.570  INFO TEST-ZNV.local --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 6988 ms
+2020-09-16 14:37:27.200  INFO TEST-ZNV.local --- [ost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2020-09-16 14:37:27.209  INFO TEST-ZNV.local --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-16 14:37:27.225  INFO TEST-ZNV.local --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-16 14:37:27.231  INFO TEST-ZNV.local --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-16 14:37:27.239  INFO TEST-ZNV.local --- [ost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-16 14:37:28.999  INFO TEST-ZNV.local --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d2ffcb7: startup date [Wed Sep 16 14:37:19 CST 2020]; root of context hierarchy
+2020-09-16 14:37:29.439  INFO TEST-ZNV.local --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-16 14:37:29.442  INFO TEST-ZNV.local --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-16 14:37:29.658  INFO TEST-ZNV.local --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-16 14:37:29.659  INFO TEST-ZNV.local --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-16 14:37:29.863  INFO TEST-ZNV.local --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-16 14:37:30.825  INFO TEST-ZNV.local --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-09-16 14:37:30.855  INFO TEST-ZNV.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-09-16 14:37:30.892  INFO TEST-ZNV.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-09-16 14:37:30.918  INFO TEST-ZNV.local --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-16 14:37:30.925  INFO TEST-ZNV.local --- [           main] c.e.l.Log4j2DemoApplication              : Started Log4j2DemoApplication in 32.376 seconds (JVM running for 44.104)
+2020-09-16 14:37:30.927 DEBUG TEST-ZNV.local --- [           main] c.e.l.Log4j2DemoApplication              : Debugging log
+2020-09-16 14:37:30.928  INFO TEST-ZNV.local --- [           main] c.e.l.Log4j2DemoApplication              : Info log
+2020-09-16 14:37:30.928  WARN TEST-ZNV.local --- [           main] c.e.l.Log4j2DemoApplication              : Hey, This is a warning!
+2020-09-16 14:37:30.928 ERROR TEST-ZNV.local --- [           main] c.e.l.Log4j2DemoApplication              : Oops! We have an Error. OK
+2020-09-16 14:37:30.928 FATAL TEST-ZNV.local --- [           main] c.e.l.Log4j2DemoApplication              : Damn! Fatal error. Please fix me.
+2020-09-16 14:39:53.492  INFO TEST-ZNV.local --- [      Thread-77] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d2ffcb7: startup date [Wed Sep 16 14:37:19 CST 2020]; root of context hierarchy
+2020-09-16 14:39:53.511  INFO TEST-ZNV.local --- [      Thread-77] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown

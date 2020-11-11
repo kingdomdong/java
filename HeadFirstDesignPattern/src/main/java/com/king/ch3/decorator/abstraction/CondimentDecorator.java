@@ -1,6 +1,4 @@
-package com.king.ch2.decorator.abstraction;
-
-import com.king.ch2.decorator.abstraction.Beverage;
+package com.king.ch3.decorator.abstraction;
 
 /**
  * abstract decorator class

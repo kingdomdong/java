@@ -1,0 +1,14 @@
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/compute/mapper/PowerHourMapperTest.java
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/storage/service/GroupMetesServiceTest.java
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/compute/service/RuleServiceTest.java
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/compute/domain/PrecinctTreeTest.java
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/compute/service/PrecinctServiceTest.java
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/scheduler/EnergyConsumptionSchedulerTest.java
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/scheduler/PowerMeteFilterSchedulerTest.java
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/common/utils/DateUtilsTest.java
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/compute/service/ConsumptionServiceTest.java
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/storage/service/MeteStorageServiceTest.java
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/scheduler/EnergyTableCreateSchedulerTest.java
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/compute/service/ExpressionParserTest.java
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/compute/service/ComputeServiceTest.java
+/Users/kingdomdong/Major/PEIM/PEIM_VAS/src/peim-vas/peim-vas-energy/src/test/java/com/znv/peim/energy/compute/domain/PrecinctTraverseTest.java
