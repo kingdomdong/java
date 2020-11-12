@@ -2,7 +2,7 @@ Welcome to the Java World!
 
 	In this repository, I just wanna put some knowledge of Java which I meet in my daily life.
 
-	Maybe some issues need to be resolved and better ways can used to implement specific requirements, etc.
+	Some issues need to be resolved and better ways can be used to implement specific requirements, etc.
 
-	Your suggestions always valuable.
+	Your suggestions are always valuable.
 
